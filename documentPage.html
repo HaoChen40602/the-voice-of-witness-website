@@ -7,8 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
     <title>Hello, world!</title>
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/fontawesome.min.css" rel="stylesheet">
   </head>
   <body style="background-color: aqua">
     <!-- Optional JavaScript -->
@@ -17,18 +18,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <div id="page">
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">Voice Of Witness</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
+              <li class="nav-item ">
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
               
-              <li class="nav-item active">
+              <li class="nav-item ">
                 <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
               </li>
               
@@ -36,11 +37,11 @@
                 <a class="nav-link" href="#">Browse Story <span class="sr-only">(current)</span></a>
               </li>
               
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="#">Share Your Story <span class="sr-only">(current)</span></a>
               </li>
               
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="#">Contact Us <span class="sr-only">(current)</span></a>
               </li>
             </ul>
@@ -68,30 +69,63 @@
             <p>
                 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
             </p>
+             <hr>
         </div>
-        <hr>
-        <div id="Comment Area" style="width: 70%; background-color: azure; margin: auto; text-align: center; border-radius: 10px; margin-top: 20px; margin-bottom: 20px">
-            comments here<br>
-            comments here<br>
-            comments here<br>
-            comments here<br>
-            comments here<br>
-            comments here<br>
-            comments here<br>
-            comments here<br>
+        <div id="Comment Area" style="width: 58%; background-color: aqua; margin: auto; border-radius: 5px; border-color: darkgray; border-style: solid;margin-top: 20px; margin-bottom: 20px">
+           <div style="background-color: beige">
+                <h3 style="margin-left: 20px">comments</h3>
+                <hr>
+            </div>
+            <div style="margin-left: 50px">
+                <p>something something something something something something something <p>
+                <i onclick="myFunction(this)" class="far fa-thumbs-up" style="transform: scale(1.5, 1.5); margin-left: 30px"></i><nobr style="margin-left: 10px">like</nobr>
+                <i class="fas fa-comment" style="transform: scale(1.5, 1.5); margin-left: 30px"></i><nobr style="margin-left: 10px">like</nobr>
+            </div>
+            <hr>
+            <div style="margin-left: 50px">
+                <p>something something something something something something something <p>
+                <i onclick="myFunction(this)" class="far fa-thumbs-up" style="transform: scale(1.5, 1.5); margin-left: 30px"></i><nobr style="margin-left: 10px">like</nobr>
+                <i class="fas fa-comment" style="transform: scale(1.5, 1.5); margin-left: 30px"></i><nobr style="margin-left: 10px">like</nobr>
+            </div>
+            <hr>
+            <div style="margin-left: 50px">
+                <p>something something something something something something something <p>
+                <i onclick="myFunction(this)" class="far fa-thumbs-up" style="transform: scale(1.5, 1.5); margin-left: 30px"></i><nobr style="margin-left: 10px">like</nobr>
+                <i class="fas fa-comment" style="transform: scale(1.5, 1.5); margin-left: 30px"></i><nobr style="margin-left: 10px">like</nobr>
+            </div>
+            <hr>
+            <form class="form-inline">
+               <div class="form-group mx-sm-3 mb-2">
+                    <textarea class="form-control" id="txtarea" rows="1" style="width: 570px; border-radius: 5px; height: auto" placeholder="Write Comments!"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mb-2" style="margin-bottom: 15px">Submit</button>
+            </form>
+            </div>
         </div>
-        <div style="width: 70%; position: fixed; bottom: 0; right: 200px;">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2">Write Comments!</textarea>
-        </div>
+        
         <footer style="background-color: lightskyblue; margin: auto">
           <div class="footer-copyright text-center py-3">© 2020 Copyright:
             <a href="#"> something</a>
           </div>
         </footer>
         
-            <br>
-            <br>
-            <br>
-      </div>
+        <script>
+            function myFunction(x){
+              if(x.className == "far fa-thumbs-up"){
+                  x.className = "fas fa-thumbs-up";
+              }else{
+                  x.className = "far fa-thumbs-up";
+              }
+            }
+            function expandTextarea(id) {
+                document.getElementById(id).addEventListener('keyup', function() {
+                    this.style.overflow = 'hidden';
+                    this.style.height = 0;
+                    this.style.height = this.scrollHeight + 'px';
+                }, false);
+            }
+
+            expandTextarea('txtarea');
+        </script>
   </body>
 </html>
