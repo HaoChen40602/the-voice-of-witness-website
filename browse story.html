@@ -10,42 +10,6 @@
     <title>Hello, world!</title>
     <link href="css/all.min.css" rel="stylesheet">
     <link href="css/fontawesome.min.css" rel="stylesheet">
-    <script>
-        function sortTable() {
-          var table, rows, switching, i, x, y, shouldSwitch;
-          table = document.getElementById("myTable");
-          switching = true;
-          /*Make a loop that will continue until
-          no switching has been done:*/
-          while (switching) {
-            //start by saying: no switching is done:
-            switching = false;
-            rows = table.rows;
-            /*Loop through all table rows (except the
-            first, which contains table headers):*/
-            for (i = 1; i < (rows.length - 1); i++) {
-              //start by saying there should be no switching:
-              shouldSwitch = false;
-              /*Get the two elements you want to compare,
-              one from current row and one from the next:*/
-              x = rows[i].getElementsByTagName("TD")[0];
-              y = rows[i + 1].getElementsByTagName("TD")[0];
-              //check if the two rows should switch place:
-              if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-                //if so, mark as a switch and break the loop:
-                shouldSwitch = true;
-                break;
-              }
-            }
-            if (shouldSwitch) {
-              /*If a switch has been marked, make the switch
-              and mark that a switch has been done:*/
-              rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-              switching = true;
-            }
-          }
-        }
-</script>
   </head>
   <body style="background-color: aqua">
     <!-- Optional JavaScript -->
@@ -105,8 +69,8 @@
                 <button type="button" class="btn btn-outline-primary btn-lg" style="width: 80%; border-style: hidden; text-align: left">categories</button><br><br>
             </div>
         </div>
-        <div style="display: inline-block; width: 700px; vertical-align: top; margin-left: 300px; margin-top: 10px">
-            <div class="card border-primary mb-3" style="max-width: 700px; background-color: aqua">
+        <div style="display: inline-block; width: 700px; vertical-align: top; margin-left: 300px; margin-top: 10px" id='postContainer'>
+            <div class="card border-primary mb-3" style="max-width: 700px; background-color: aqua" data-title='Post-4' data-like='124'>
               <div class="row no-gutters">
                 <div class="col-md-4">
                   <img src="dummy.jpg" class="card-img" alt="..." style="margin-top: 45px; margin-left: 10px">
@@ -114,7 +78,7 @@
                 <div class="card-body d-flex flex-column align-items-start" style="max-width: 350px;">
                   <strong class="d-inline-block mb-2 text-primary">name/something</strong>
                   <h3 class="mb-0">
-                    <a class="text-dark" href="#">Featured post</a>
+                    <a class="text-dark" href="#">Post 4</a>
                     <i onclick="myFunction(this)" class="far fa-heart" style="color: pink"></i>
                   </h3>
                   <div class="mb-1 text-muted">Nov 12</div>
@@ -123,7 +87,7 @@
                 </div>
               </div>
             </div>
-            <div class="card border-primary mb-3" style="max-width: 700px; background-color: aqua">
+            <div class="card border-primary mb-3" style="max-width: 700px; background-color: aqua" data-title='Post-2' data-like='493'>
               <div class="row no-gutters">
                 <div class="col-md-4">
                   <img src="dummy.jpg" class="card-img" alt="..." style="margin-top: 45px; margin-left: 10px">
@@ -131,7 +95,7 @@
                 <div class="card-body d-flex flex-column align-items-start" style="max-width: 350px;">
                   <strong class="d-inline-block mb-2 text-primary">name/something</strong>
                   <h3 class="mb-0">
-                    <a class="text-dark" href="#">Featured post</a>
+                    <a class="text-dark" href="#">Post 2</a>
                     <i onclick="myFunction(this)" class="far fa-heart" style="color: pink"></i>
                   </h3>
                   <div class="mb-1 text-muted">Nov 12</div>
@@ -140,7 +104,7 @@
                 </div>
               </div>
             </div>
-            <div class="card border-primary mb-3" style="max-width: 700px; background-color: aqua">
+            <div class="card border-primary mb-3" style="max-width: 700px; background-color: aqua" data-title='Post-3' data-like='34'>
               <div class="row no-gutters">
                 <div class="col-md-4">
                   <img src="dummy.jpg" class="card-img" alt="..." style="margin-top: 45px; margin-left: 10px">
@@ -148,7 +112,7 @@
                 <div class="card-body d-flex flex-column align-items-start" style="max-width: 350px;">
                   <strong class="d-inline-block mb-2 text-primary">name/something</strong>
                   <h3 class="mb-0">
-                    <a class="text-dark" href="#">Featured post</a>
+                    <a class="text-dark" href="#">Post 3</a>
                     <i onclick="myFunction(this)" class="far fa-heart" style="color: pink"></i>
                   </h3>
                   <div class="mb-1 text-muted">Nov 12</div>
@@ -163,9 +127,9 @@
             <div class="col-auto my-1">
               <select class="custom-select mr-sm-2" id="sorting">
                 <option selected>Sort By</option>
-                <option value="Time">Time</option>
                 <option value="Like">Like</option>
-                <option value="something">something</option>
+                <option value="Title">Title</option>
+                <option value="Random">Random</option>
               </select>
             </div>
         </form>
@@ -174,34 +138,7 @@
             <a href="#"> something</a>
           </div>
         </footer>
-        <script>
-            const selectElement = document.getElementById("sorting");
-            selectElement.addEventListener('change', (event) => {
-              alert(`${event.target.value}`);
-            });
-            
-            function myFunction(x){
-              if(x.className == "far fa-heart"){
-                  x.className = "fas fa-heart";
-              }else{
-                  x.className = "far fa-heart";
-              }
-            }
-            
-            const searchBar = document.getElementById('searchBar');
-            searchBar.addEventListener('keyup', (e) => {
-                const searchString = e.target.value.toLowerCase();
-
-                const filteredCharacters = hpCharacters.filter((character) => {
-                    return (
-                        character.name.toLowerCase().includes(searchString) ||
-                        character.house.toLowerCase().includes(searchString)
-                    );
-                });
-                displayCharacters(filteredCharacters);
-            });
-            
-        </script>
+        <script src="javascript/browse%20story%20javascript.js" type="text/javascript"></script>
       </div>
   </body>
 </html>
