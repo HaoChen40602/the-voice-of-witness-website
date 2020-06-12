@@ -5,20 +5,6 @@ function myFunction(x){
       x.className = "far fa-heart";
   }
 }
-            
-const searchBar = document.getElementById('searchBar');
-
-searchBar.addEventListener('keyup', (e) => {
-    const searchString = e.target.value.toLowerCase();
-    const filteredCharacters = hpCharacters.filter((character) => {
-        return (
-        character.name.toLowerCase().includes(searchString) ||
-        character.house.toLowerCase().includes(searchString)
-        );
-    });
-    displayCharacters(filteredCharacters);
-});
-
 //------------------------------------------------------------------------------------
 const selectElement = document.getElementById("sorting");
 
@@ -72,3 +58,23 @@ function shuffle(array) {
   
     return array;
   }
+//-----------------------------------------------------------------------
+const searchBar = document.getElementById('searchBar');
+
+searchBar.addEventListener('keyup', function(e){
+    const tterm = e.target.value.toLowerCase().split(' ');
+    let posts = document.querySelectorAll('.card');
+    for(let i = 0; i < posts.length; i++){
+        const title = posts[i].getAttribute('data-title');
+        let current = true;
+        for(let j = 0; j < tterm.length; j++){
+            if(title.toLowerCase().indexOf(tterm[j]) == -1){
+                posts[i].style.display = 'none';
+                current = false;
+            }
+        }
+        if(current){
+            posts[i].style.display = 'inline-block';
+        }
+    }
+});
