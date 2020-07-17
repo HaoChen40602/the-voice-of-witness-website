@@ -61,9 +61,11 @@ function shuffle(array) {
 //-----------------------------------------------------------------------
 const searchBar = document.getElementById('searchBar');
 
-searchBar.addEventListener('keyup', function(e){
-    const tterm = e.target.value.toLowerCase().split(' ');
+function searchTag(){
+    const tterm = searchBar.value.toLowerCase().split(' ');
     let posts = document.querySelectorAll('.card');
+    let num = 0;
+    document.getElementById("no-result").style.display = "none";
     for(let i = 0; i < posts.length; i++){
         const title = posts[i].getAttribute('data-title');
         let current = true;
@@ -71,10 +73,15 @@ searchBar.addEventListener('keyup', function(e){
             if(title.toLowerCase().indexOf(tterm[j]) == -1){
                 posts[i].style.display = 'none';
                 current = false;
+                break;
             }
         }
         if(current){
             posts[i].style.display = 'inline-block';
+            num++;
         }
     }
-});
+    if(num == 0){
+        document.getElementById("no-result").style.display = "inline-block";
+    }
+}
