@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/main.css">
     <title>Hello, world!</title>
   </head>
   <body style="background-color: aqua">
@@ -46,29 +46,31 @@
             </ul>
           </div>
         </nav>
-        <div style="background-color: beige; background-image: url('dummy.jpg'); background-repeat: no-repeat, no-repeat; background-position: center; background-size: cover; width: 40%; margin: auto; height: 200px; margin-top: 30px; border: 2px solid red; border-radius: 10px;">
+        <div id="mediaContainer">
             <div class="media">
               <div class="media-body">
                 <h5 class="mt-0" style="text-align: center">Center-aligned media</h5>
-                <p style="text-align: center">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in v</p>
+                <p style="text-align: center">
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                </p>
               </div>
             </div>
         </div>
-        <div style="margin: auto; width: 70%; margin-top: 20px; border: 2px dashed black">
-            <p style="margin: 10px; text-align: center; font-size: 1.5em">
+        <div id="centerText">
+            <p>
                 somthing random somthing random somthing random somthing random somthing random somthing random somthing random somthing random somthing
             </p>
         </div>
-        <div style="margin: auto; width: 70%; margin-top: 20px; text-align: center; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-around">
-            <a href="#" style="display: inline-block"><img src="dummy.jpg" alt="dummy" style="border-radius: 10px"></a>
-            <a href="#" style="display: inline-block"><img src="dummy.jpg" alt="dummy" style="border-radius: 10px"></a>
+        <div class="container">
+            <a href="#" style="display: inline-block"><img class="img-fluid" src="dummy.jpg" alt="dummy" style="border-radius: 10px"></a>
+            <a href="#" style="display: inline-block"><img class="img-fluid" src="dummy.jpg" alt="dummy" style="border-radius: 10px"></a>
         </div>
-        <div style="margin: auto; width: 70%; margin-top: 40px; text-align: center; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-around">
-            <a href="#" style="display: inline-block"><img src="dummy.jpg" alt="dummy" style="border-radius: 10px"></a>
-            <a href="#" style="display: inline-block"><img src="dummy.jpg" alt="dummy" style="border-radius: 10px"></a>
+        <div class="container">
+            <a href="#" style="display: inline-block"><img class="img-fluid" src="dummy.jpg" alt="dummy" style="border-radius: 10px"></a>
+            <a href="#" style="display: inline-block"><img class="img-fluid" src="dummy.jpg" alt="dummy" style="border-radius: 10px"></a>
         </div>
             
-        <footer style="background-color: lightskyblue; margin: auto">
+        <footer id="footer">
           <div class="footer-copyright text-center py-3">© 2020 Copyright:
             <a href="#"> something</a>
           </div>

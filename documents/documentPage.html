@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link href="../css/documentPage.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Hello, world!</title>
@@ -46,8 +46,8 @@
             </ul>
           </div>
         </nav>
-        <img src="../dummy.jpg" class="rounded mx-auto d-block" alt="..." style="margin-top: 20px">
-        <div style="border-style: solid; border-radius: 10px; margin: auto; width: 70%; margin-top: 30px">
+        <img src="../dummy.jpg" class="rounded mx-auto d-block img-fluid" alt="..." id="image1">
+        <div id="intro">
             <br>
             <br>
             <br>
@@ -57,7 +57,7 @@
             <br>
             <br>
         </div>
-        <div style="width: 60%; margin: auto; margin-top: 20px; margin-bottom: 20px">
+        <div id="contentArea">
             <p>
                 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
             </p>
@@ -66,35 +66,35 @@
             </p>
              <hr>
         </div>
-        <div id="Comment Area" style="width: 58%; background-color: aqua; margin: auto; border-radius: 5px; border-color: darkgray; border-style: solid;margin-top: 20px; margin-bottom: 20px">
+        <div id="CommentArea">
            <div style="background-color: beige">
-                <h3 style="margin-left: 20px">comments</h3>
+                <h3 id="commentTitle">comments</h3>
                 <hr>
             </div>
-            <div style="margin-left: 50px">
+            <div class="comment">
                 <p>something something something something something something something <p>
-                <i onclick="myFunction(this)" class="far fa-thumbs-up" style="transform: scale(1.5, 1.5); margin-left: 30px"></i><nobr style="margin-left: 10px">like</nobr>
+                <i onclick="myFunction(this)" class="far fa-thumbs-up"></i><nobr class="liketext">like</nobr>
             </div>
             <hr>
-            <div style="margin-left: 50px">
+            <div class="comment">
                 <p>something something something something something something something <p>
-                <i onclick="myFunction(this)" class="far fa-thumbs-up" style="transform: scale(1.5, 1.5); margin-left: 30px"></i><nobr style="margin-left: 10px">like</nobr>
+                <i onclick="myFunction(this)" class="far fa-thumbs-up"></i><nobr class="liketext">like</nobr>
             </div>
             <hr>
-            <div style="margin-left: 50px">
+            <div class="comment">
                 <p>something something something something something something something <p>
-                <i onclick="myFunction(this)" class="far fa-thumbs-up" style="transform: scale(1.5, 1.5); margin-left: 30px"></i><nobr style="margin-left: 10px">like</nobr>
+                <i onclick="myFunction(this)" class="far fa-thumbs-up"></i><nobr class="liketext">like</nobr>
             </div>
             <hr>
             <form class="form-inline">
-               <div class="form-group mx-sm-3 mb-2" style="width: 100%">
-                   <button id="like" type="button" class="btn btn-outline-primary" style='margin-right: 20px; width: 13%' onclick="pressLike()">
+               <div class="form-group mx-sm-3 mb-2" id="commentForm">
+                   <button id="like" type="button" class="btn btn-outline-primary" onclick="pressLike()">
                        <i class="fa fa-chevron-up" aria-hidden="true" id="likeSign" style="transition: transform 0.5s;"></i>
                        Like 98
                    </button>
 
-                   <textarea class="form-control" id="txtarea" rows="1" style="width: 70%; border-radius: 5px; height: auto" placeholder="Write Comments!" name="comment"></textarea>
-                    <button type="submit" class="btn btn-primary mb-2" style=" width: 10%; margin-left: 10px; position: relative; top: 3px;">Post</button>
+                   <textarea class="form-control" id="txtarea" rows="1" placeholder="Write Comments!" name="comment"></textarea>
+                    <button type="submit" class="btn btn-primary mb-2" id="PostPost">Post</button>
                 </div>
             </form>
             </div>
@@ -105,50 +105,6 @@
             <a href="#"> something</a>
           </div>
         </footer>
-        
-        <script>
-            function myFunction(x){
-              if(x.className == "far fa-thumbs-up"){
-                  x.className = "fas fa-thumbs-up";
-              }else{
-                  x.className = "far fa-thumbs-up";
-              }
-            }
-            function expandTextarea(id) {
-                document.getElementById(id).addEventListener('keyup', function() {
-                    this.style.overflow = 'hidden';
-                    this.style.height = 0;
-                    this.style.height = this.scrollHeight + 'px';
-                }, false);
-            }
-
-            expandTextarea('txtarea');
-            
-            function pressLike(){
-                let like = document.getElementById("like");
-                if(like.className == "btn btn-outline-primary"){
-                    like.className = "btn btn-primary";
-                    const sign = document.getElementById("likeSign");
-                    sign.style.transform = "translateY(-5px)";
-                    setTimeout(function (){
-                        sign.style.transform = "translateY(0px)";
-                    }, 400);
-                    if (typeof(Storage) !== "undefined") {
-                      localStorage.setItem("like", "true");
-                    }
-                }else{
-                    like.className = "btn btn-outline-primary";
-                    if (typeof(Storage) !== "undefined") {
-                      localStorage.setItem("like", "false");
-                    }
-                }
-            }
-            function load(){
-                if(localStorage.getItem("like") == "true"){
-                    like.className = "btn btn-primary";
-                }
-            }
-            
-        </script>
+        <script src="../javascript/documentPage.js"></script>
   </body>
 </html>

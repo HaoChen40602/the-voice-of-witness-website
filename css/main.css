@@ -1,0 +1,39 @@
+#mediaContainer{
+    background-color: beige;
+    background-image: url('../dummy.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    margin: auto;
+    height: 200px;
+    margin-top: 30px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+#centerText{
+    margin: auto;
+    width: 70%;
+    margin-top: 20px;
+    border: 2px dashed black;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.container{
+    margin: auto;
+    width: 70%;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#footer{
+    background-color: lightskyblue;
+    margin: auto;
+}
