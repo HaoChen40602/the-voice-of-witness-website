@@ -29,7 +29,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'art');
 app.use(bodyParser.urlencoded({extended: false}));
 
-app.use(express.static(path.join(__dirname, "the-voice-of-witness-website")));
+app.use(express.static(path.join(__dirname, "mainpage")));
 
 app.get('/document/:id', async function (req, res){
     const input = req.query;
