@@ -182,8 +182,7 @@
             </div>
         </div>
         <footer style="background-color: rgb(96, 196, 188); margin: auto">
-          <div class="footer-copyright text-center py-3">© 2020 Copyright:
-            <a href="#"> something</a>
+          <div class="footer-copyright text-center py-3">© 2020 PalmDrive. All Rights Reserved
           </div>
         </footer>
         <script>
