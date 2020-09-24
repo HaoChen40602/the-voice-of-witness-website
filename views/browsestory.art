@@ -60,7 +60,6 @@
                 </div>
             </form>
           </div>
-            
         </nav>
     <div id="toolBarLeft">
             <div class="md-form mt-0" style="text-align: center">
@@ -143,6 +142,294 @@
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/4">Learn More</a>
+            </div>
+            <div class="card" data-title='Post 5 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC5%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>how does this change us5</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    #COVID19
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC5%></nobr>
+                </div>
+                <p class="cardContent">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/5">Learn More</a>
+            </div>
+            <div class="card" data-title='Post 6 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC6%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>how does this change us6</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    #COVID19
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC6%></nobr>
+                </div>
+                <p class="cardContent">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/6">Learn More</a>
+            </div>
+            <div class="card" data-title='Post 7 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC7%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>how does this change us7</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    #COVID19
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC7%></nobr>
+                </div>
+                <p class="cardContent">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/7">Learn More</a>
+            </div>
+            <div class="card" data-title='Post 8 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC8%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>how does this change us8</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    #COVID19
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC8%></nobr>
+                </div>
+                <p class="cardContent">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/8">Learn More</a>
+            </div>
+            <div class="card" data-title='Post 9 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC9%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>how does this change us9</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    #COVID19
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC9%></nobr>
+                </div>
+                <p class="cardContent">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/9">Learn More</a>
+            </div>
+            <div class="card" data-title='Post 10 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC10%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>how does this change us10</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    #COVID19
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC10%></nobr>
+                </div>
+                <p class="cardContent">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/10">Learn More</a>
+            </div>
+            <div class="card" data-title='Post 11 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC11%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>how does this change us11</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    #COVID19
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC11%></nobr>
+                </div>
+                <p class="cardContent">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/11">Learn More</a>
+            </div>
+            <div class="card" data-title='Post 12 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC12%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>how does this change us12</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    #COVID19
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC12%></nobr>
+                </div>
+                <p class="cardContent">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/12">Learn More</a>
+            </div>
+            <div class="card" data-title='Post 13 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC13%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>how does this change us13</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    #COVID19
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC13%></nobr>
+                </div>
+                <p class="cardContent">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/13">Learn More</a>
+            </div>
+            <div class="card" data-title='Post 14 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC14%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>how does this change us14</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    #COVID19
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC14%></nobr>
+                </div>
+                <p class="cardContent">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/14">Learn More</a>
+            </div>
+            <div class="card" data-title='Post 15 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC15%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>how does this change us15</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    #COVID19
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC15%></nobr>
+                </div>
+                <p class="cardContent">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/15">Learn More</a>
+            </div>
+            <div class="card" data-title='Post 16 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC16%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>how does this change us16</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    #COVID19
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC16%></nobr>
+                </div>
+                <p class="cardContent">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/16">Learn More</a>
+            </div>
+            <div class="card" data-title='Post 17 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC17%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>how does this change us17</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    #COVID19
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC17%></nobr>
+                </div>
+                <p class="cardContent">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/17">Learn More</a>
+            </div>
+            <div class="card" data-title='Post 18 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC18%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>how does this change us18</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    #COVID19
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC18%></nobr>
+                </div>
+                <p class="cardContent">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/18">Learn More</a>
+            </div>
+            <div class="card" data-title='Post 19 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC19%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>how does this change us19</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    #COVID19
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC19%></nobr>
+                </div>
+                <p class="cardContent">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/19">Learn More</a>
+            </div>
+            <div class="card" data-title='Post 20 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC20%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>how does this change us20</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    #COVID19
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC20%></nobr>
+                </div>
+                <p class="cardContent">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/20">Learn More</a>
             </div>
         </div>
         <script src="javascript/browsestoryjavascript.js" type="text/javascript"></script>
