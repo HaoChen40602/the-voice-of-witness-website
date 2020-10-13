@@ -86,8 +86,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>COVID-19 in China Project</title>
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
+<link href="/css/all.min.css" rel="stylesheet">
   </head>
   <body style="background-color: rgb(240, 238, 243)"  onload="load();">
     <!-- Optional JavaScript -->
@@ -126,34 +125,32 @@
         </nav>
         <div id="template">
             <div style="grid-area: cont">
-                <img src="/dummy.jpg" class="rounded mx-auto d-block img-fluid" alt="..." id="image1">
-                <div id="intro">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                <h3 style="text-align: center; padding-top: 20px;">COVID’s impact on life and work</h3>
+                <div id="intro" style="padding: 20px">
+                The interviewee is a dentist at a public hospital in Beijing, China. He tells what he noticed during the COVID-19 pandemic, including the hospital’s measures and COVID’s impact on his career and personal life.
                 </div>
                 <div id="contentArea">
-                    <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                    </p>
-                    <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                    </p>
-                    
+                <h5 style="text-align: center; font-weight: bold">Knowledge of the pandemic and basic protective measures</h5>
+                    <p>I am a doctor, as wells as the director, professor, and PhD tutor of the department of stomatology at a public hospital. Unlike those without medical knowledge, I can get to know about the spread of COVID-19 through professional means as I work in the medical field. Before the news about COVID-19 went public, we had received the hospital’s notice about the emergence of the virus. It had emerged in Wuhan, and was perhaps a contagious disease. In December, no one was serious about this. The hospital functioned normally because the situation wasn’t serious, and that Beijing was relatively safe. The virus only happened on few people in Wuhan. However, around the Chinese New Year, there was an outbreak of the disease, and some typical symptoms such as fevers had started to become obvious. Before the New Year, I had already had a high fever. Not only me, but also some colleagues and directors at some other departments. However, since we hadn’t been to the high risk areas and recovered in a few days, we weren’t required systematic check-ups, nor were we quarantined. During the New Year, the government banned gatherings and reunions and called for masks and disinfection. The situation progressed, and check-ups regarding patients with a high temperature became more serious. At same time, the hospital started systematic check-ups and close protection of fevered patients. Before the outbreak, fevered patients without contact with people from Wuhan were all determined safe from COVID. When it came to the outbreak, all fevers or even aggregate fevers needed check-ups and x-ray. Whose with pneumonia symptoms were quarantined, either for 14 days at home or professionally at hospital if serious.</p>
+                    <h5 style="text-align: center; font-weight: bold">Exacerbation of the pandemic and the hospital’s preventive measures</h5>
+                    <p>Since the exacerbation of the pandemic was announced, our hospital was designated as a special center for fevered patients. The hospital started to form a medical group to help Wuhan and reserved observation rooms for patients. The hospital also began to ask some doctors to work for longer hours in terns and announce our holiday was postponed. As the director of the department, I needed to make some arrangement for the hospital, so I went back there early. Since then, the hospital’s protection levels had increased, and protection for medical workers had begun. I was in the department of stomatology, so the risk of infection was relatively high because we used dental drills. They would cause droplets from patients’ mouth, which could be very risky. Thus, our department specialized our protection methods, educating department members, organizing drills, and gathering protective materials. Medical workers with name cards could enter the hospital, but patients c do so without registration on the website. After entering the hospital with the registration information, patients would go through several checks. The first was temperature check. Those with a high temperature were immediately sent to the fever department. Those without a fever could enter the corresponding department, and nurses would take their temperature twice because body temperature can still rise after the first check. Second, the hospital would ask where the patient came from. Those who came from Wuhan, had contact with people from infected areas, or COVID patients would be registered and quarantined. In this case, the fever department was immediately contacted to prepare for fevered patients. If patients passed the two checks, they could get looked up in corresponding departments. The fever department would look into the cause for patients’ fevers, COVID-19, the flu, or a regular cold, etc. If patients were suspected to have COVID, experts would gather together to oversee the symptoms. Three negative COVID test results signified a confirmed COVID case. Suspected cases would be professionally quarantined by the hospital. </p>
+                    <h5 style="text-align: center; font-weight: bold">COVID’s impact on life and work</h5>
+                    <p>We were indeed largely impacted by the coronavirus. Before the outbreak, many patients came to the hospital, and making an appointment was hard. However, now the number of total patients declined dramatically. They tried not to come to the hospital and bear with their symptoms such as toothaches; only when the symptoms became severed did they come here. Because patients took off their masks with dentists and everyone could be easily infected, we tried to lower the risks by, for example, treating patients in isolated rooms. But because the incubation period of COVID was long, and often no symptoms were present at the start, we would recommend patients that required long-term and risky treatment to postpone or select a different time for their treatment. </p>
+                    <p>COVID also impacted my personal life. I couldn’t return to my hometown. Chinese New Year wasn’t complete without my family. We had worked hard for a year, but we couldn’t relax and celebrate the New Year. When we went out, we were constantly tested. We were always worried about being infected, so the impact on our emotions was very significant. In addition, we were always under arms at the hospital. The hospital was like a frontline due the high risk of infection. We needed to be careful and always under stress when working. As a dentist though, I was relatively safe without direct contact with fevered patients. Many of my colleagues went to the real frontline with much more stress and impact on their life. </p>
+                    <p>Second, COVID also impacted our work. Because of the outbreak and high risk of infection, the number of patients decreased, and our protection needed to be more careful. When treating the patients, we needed many layers of clothes. Medical workers needed to wear a white coat, an isolation suit, and a suffocating N95 mask. Finally, we also needed to wear googles and a face shield. It was stifling hot inside this costume. For some special treatments, we also wore a magnifying glass. Each time we treated a patient, we not only felt uneasy in the tight costume, but were also sweating. The whole treatment became difficult. These were all problems to overcome. What’s worse, the entire operation of the hospital was largely impacted. For instance, many patients had to stop their treatment, and much work within departments was postponed. Research projects, recruitment, and face-to-face training all stopped. That’s why the coronavirus largely impacted our work.</p>
+                    <p style="font-style: italic">The interviewee’s life has been returning back to normal with the amelioration of COVID. He has also caught up with his former work. </p>
                 </div>
+                
             </div>
             <div style="grid-area: side; margin-top: 40px">
                 <p style="font-size: 1.3em"><strong>Interviewed by</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Name Name</p>
+                <p style="font-style: italic; font-size: 1.3em">Zihui Lin</p>
                 <p style="font-size: 1.3em"><strong>interviewee</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Name Name</p>
-                <p style="font-size: 1.3em"><strong>Live in</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">City</p>
+                <p style="font-style: italic; font-size: 1.3em">Jiang Lin</p>
+                <p style="font-size: 1.3em"><strong>interview date</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">3/23/2020</p>
+                <p style="font-size: 1.3em"><strong>Occupation</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Dentist</p>
             </div>
         </div>
         <hr>
@@ -250,22 +247,12 @@ function load(){
       <div class="modal-body" style="padding-left: 20%; padding-right: 20%;">
         <div style="position: relative;">
             <i class="fas fa-envelope" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tina_sheng@palmdrive.cn</span>
         </div>
           <br>
         <div style="position: relative;">
-            <i class="fab fa-facebook-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
-        </div>
-          <br>
-        <div style="position: relative;">
-            <i class="fab fa-twitter-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
-        </div>
-          <br>
-        <div style="position: relative;">
-            <i class="fab fa-instagram-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
+            <i class="fab fa-weixin" style="color: rgb(88, 193, 187); font-size: 1.9em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tinasheng002</span>
         </div>
       </div>
       <div class="modal-footer">

@@ -86,8 +86,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>COVID-19 in China Project</title>
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
+<link href="/css/all.min.css" rel="stylesheet">
   </head>
   <body style="background-color: rgb(240, 238, 243)"  onload="load();">
     <!-- Optional JavaScript -->
@@ -126,34 +125,29 @@
         </nav>
         <div id="template">
             <div style="grid-area: cont">
-                <img src="/dummy.jpg" class="rounded mx-auto d-block img-fluid" alt="..." id="image1">
-                <div id="intro">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                <h3 style="text-align: center; padding-top: 20px;">Impact of COVID-19 on High School Student from overseas</h3>
+                <div id="intro" style="padding: 20px">
+                Nalisa was born in Shanghai, and she immigrated to America with her family after finishing grade 7. They currently live in Long Island, New York. As a senior, COVID-19 changes her life to a wide extent, the graduation ceremony eventually became unrealistic too.
                 </div>
                 <div id="contentArea">
-                    <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                    </p>
-                    <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                    </p>
-                    
+                    <h5 style="text-align: center; font-weight: bold">Food and other resources</h5>
+                    <p>My family already stored enough masks and sanitary supplies, stores in New York no longer sell masks and meat anymore. </p>
+                    <h5 style="text-align: center; font-weight: bold">Impacts of COVID-19</h5>
+                    <p>Currently, my graduation ceremony can’t be held and New York state assessment tests are all canceled as well. My study supplies are all in school, however, since I can’t go and get it, my study process has been largely hindered. While we were in school, some of the students and teachers didn’t realize the danger of the epidemic and thought wearing masks was making a fuss. Taking online classes, many teachers can’t operate computers skillfully, which makes the classes hard to carry on. Moreover, COVID-19 has caused huge impacts on international students as well. Take examples of NYU’s students, they have been required to move out from the dormitories and can’t find place to stay. On the other hand, some students live in local American homestays but the guardians can’t understand the seriousness of COVID-19, therefore they can’t provide efficient and strict preventions for students.</p>
+                    <h5 style="text-align: center; font-weight: bold">Problems exposed under the outbreak of COVID-19</h5>
+                    <p>I personally think the death toll reported in the news is not constant with the real numbers. Many schools are not well prepared for the epidemic, including my school, and responded poorly in front of the dangerous situation. As a result, my school closed relatively later than others. Now we all communicate through email. From the outbreak of COVID-19, the problems concealed in American medical system exposed: many states can’t make responses timely and the medical facilities in NYC are not sound enough too. These problems emerged due to the lack of fever clinics in American hospitals. Apart from this reason, it is also because most Americans are used to consult family doctors rather than going to hospital.</p>
+                    <p style="font-style: italic">Till this moment, there are 1170 thousand confirmed cases in America, including 300 thousand in NYC. The graduation, which she expected for a long time, has been canceled as well. But she hopes her plan of going back to China and meeting up with middle school friends can be fulfilled when the epidemic ceased.</p>
                 </div>
             </div>
             <div style="grid-area: side; margin-top: 40px">
                 <p style="font-size: 1.3em"><strong>Interviewed by</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Name Name</p>
+                <p style="font-style: italic; font-size: 1.3em">Shelly Zhu</p>
                 <p style="font-size: 1.3em"><strong>interviewee</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Name Name</p>
-                <p style="font-size: 1.3em"><strong>Live in</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">City</p>
+                <p style="font-style: italic; font-size: 1.3em">Nalisa Xu</p>
+                <p style="font-size: 1.3em"><strong>interview date</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">4/12/2020</p>
+                <p style="font-size: 1.3em"><strong>Occupation</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">High School Student</p>
             </div>
         </div>
         <hr>
@@ -250,22 +244,12 @@ function load(){
       <div class="modal-body" style="padding-left: 20%; padding-right: 20%;">
         <div style="position: relative;">
             <i class="fas fa-envelope" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tina_sheng@palmdrive.cn</span>
         </div>
           <br>
         <div style="position: relative;">
-            <i class="fab fa-facebook-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
-        </div>
-          <br>
-        <div style="position: relative;">
-            <i class="fab fa-twitter-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
-        </div>
-          <br>
-        <div style="position: relative;">
-            <i class="fab fa-instagram-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
+            <i class="fab fa-weixin" style="color: rgb(88, 193, 187); font-size: 1.9em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tinasheng002</span>
         </div>
       </div>
       <div class="modal-footer">

@@ -86,8 +86,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>COVID-19 in China Project</title>
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
+<link href="/css/all.min.css" rel="stylesheet">
   </head>
   <body style="background-color: rgb(240, 238, 243)"  onload="load();">
     <!-- Optional JavaScript -->
@@ -126,34 +125,34 @@
         </nav>
         <div id="template">
             <div style="grid-area: cont">
-                <img src="/dummy.jpg" class="rounded mx-auto d-block img-fluid" alt="..." id="image1">
-                <div id="intro">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                <h3 style="text-align: center; padding-top: 20px;">Travel back home and quarantine experience of a high school student in the US</h3>
+                <div id="intro" style="padding: 20px">
+                Yichen is a Chinese student studying in an American high school located in Westlake Village near Beverly Hills in Los Angeles. The village is small and the people there are mostly rich white. His attitude towards the coronavirus has been changing, from ignoring, to pay attention, to "worry" and to relax.  As the lucky guy who succeeded in returning to China before the domestic policy changes and the outbreak of the United States, although his school life wasn’t a happy ending, he has gained a lot along the way.
                 </div>
                 <div id="contentArea">
-                    <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                    </p>
-                    <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                    </p>
-                    
+                <h5 style="text-align: center; font-weight: bold">Anecdotes during the trip back home</h5>
+                    <p>I will return on Mar 16th and will arrive in China on the 18th. On the last day in the US, the teacher drove me from the village to the airport. It took about two hours as there were few people on the road and thus no traffic jam. Then I flew from Los Angeles to Taipei and arrived Hong Kong after more than an hour. Then, I took a car from the Hong Kong-Zhuhai-Macao Bridge to Zhuhai and was quarantined for 14 days in a government-regulated hotel. </p>
+                    <p>I was confused on the way back home, but I remembered one thing particularly interesting.  When I first got on the plane, I saw almost everyone taking out a pack of sterile wipes or disinfectant spray from their pockets, schoolbags, or suitcases to clean their seats.  When I left, the epidemic in the United States was not serious, and everyone around me was careless. My teacher told my parents that there was no problem, and the school would start as usual. Many workers in the Los Angeles airport did not wear masks. In fact, wearing a mask on the road in the United States is even a bit redundant. I was afraid that passers-by wound fine me strange if I wore a mask and gloves. It was not until I arrived in Taipei that all the staff were fully wearing protective clothing, and the pedestrians on the road were wearing masks. I realized that the epidemic was serious and started to feel a little worried.</p>
+                    <h5 style="text-align: center; font-weight: bold">Precious humanity</h5>
+                    <p>My daily routine during the quarantine was very boring. I lived a cyclical life of having online class, eating, sleeping, and chatting with family and friends. The location of the hotel is very good. A big shopping mall is right at the opposite, but unfortunately, I could not go there. This 14-day quarantine made me deeply aware of the importance of personal freedom. If one day I really made a serious mistake and had to be locked in a room, I might go crazy. I know that some quarantine hotel in China did not allow food delivery, but I was able to do so. I usually order takeaway for breakfast and supper, for lunch I eat the meal delivered by my parents at noon.  Every day the staff would deliver water and paper towels. I had a body temperature check twice regularly, once in the morning and once in the evening. I did the nucleic acid test twice, once during the quarantine and once at the Hong Kong-Zhuhai-Macao Bridge.</p>
+                    <p>During the quarantine, I was deeply touched by the warmth of the people around me. When you are bored and down, those who are willing to spend some time chatting with you are indeed sincere friends. I also felt the kindness of my parents. They brought me food at noon every day as well as some underwear, clothes, and chopsticks, by the way, worrying that I run out of them. The food was also specially prepared for me. I could picture them busy with shopping, washing and cooking. Especially, my mother knew that I was tired all the way back home, and maybe my immune resistance had fallen. Therefore, she went to the doctor to prepare Chinese medicine and gave it to me early in the morning. I was really touched. In this kind of situation as if isolated from the outside world, people will feel the good of people around them more.  Although the scope of our activities has been restricted, human relations will not be isolated but will be more precious.</p>
+                    <h5 style="text-align: center; font-weight: bold">Missing highlights on senior year is my biggest regret</h5>
+                    <p>The largest impact of the epidemic on me is that the school cannot hold classes and many large-scale events have been cancelled. In my 12th grade this year, I also play a leading role in many activities. Memories in the senior year will be a very important part of high school life. Our school’s traditional activities are particularly interesting, such as prom, senior retreat, and activities that include the Disney trip for an entire day. These are things that I have been looking forward to and have been preparing for a long time, but they are gone now. The epidemic in the Los Angeles area is currently very serious, and the government directly issued public schools to reopen in the fall. I went to a private school, and the school said it would be postponed until May, but I don’t think it is realistic.</p>
+                    <h5 style="text-align: center; font-weight: bold">My attitude towards the epidemic has changed drastically</h5>
+                    <p>My attitude towards the epidemic has been changing. When it first broke out, I didn't think it was a big deal. Many friends around also held the attitude that young people have a good immune system and can definitely resist the virus. It was my girlfriend who made my attitude slightly changed because she thinks it is serious. Her entire family are all in the United States so they have more information from Chinese news. When she suggested that we should go out less, I was even upset for a while but I went outside to eat hot pot. Certainly, my attitude was largely influenced by the surroundings, including my school and teachers since they all feel it was not a big deal. Especially Americans, they think this was the common flu. Influenza was very common in the United States, especially in winter. My parents also didn't pay much attention because they thought the virus might only spread in China. They didn't expect it to become a pandemic.</p>
+                    <p>Later, I saw other news saying that the virus may have "sequelae", such as negative est result might become positive again.  Also, if young people get sick, they are probably asymptomatic carriers could spread the virus to the elderly, pregnant women, children and other people with low immunity, so I gradually paid more attention to it. Later, my parents directly told me to go home on the phone as the situation in the United States become more serious. They said that they were so worried that I was in the United States alone. I didn't plan to return to China at the beginning because it was my girlfriend's birthday in a week.  As a result, my parents and I had a quarrel. They had a very tough attitude, but they compromised in the end and respect my unwillingness of returning to China. However, I later realized I’m their only son after all, so I should return home and make them relax. So I came back from the perspective of filial piety to my parents. But when I saw the strictness of China's control, I became more worried about the situation in the United States. The attitude of almost completely ignore the virus in the United States and Europe made me very scared. Imagine that if I got sick at that time, I would definitely regret it now. However, the domestic epidemic has slowed down, and I have relaxed a bit in my attitude.</p>
+                    <p style="font-style: italic">After the epidemic is over, he plans to return to the United States as soon as possible to spend some time with high school friends and teachers.</p>
                 </div>
             </div>
             <div style="grid-area: side; margin-top: 40px">
                 <p style="font-size: 1.3em"><strong>Interviewed by</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Name Name</p>
+                <p style="font-style: italic; font-size: 1.3em">Luxin Chen</p>
                 <p style="font-size: 1.3em"><strong>interviewee</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Name Name</p>
-                <p style="font-size: 1.3em"><strong>Live in</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">City</p>
+                <p style="font-style: italic; font-size: 1.3em">Yichen Yang</p>
+                <p style="font-size: 1.3em"><strong>interview date</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">2/4/2020</p>
+                <p style="font-size: 1.3em"><strong>Occupation</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Student </p>
             </div>
         </div>
         <hr>
@@ -250,22 +249,12 @@ function load(){
       <div class="modal-body" style="padding-left: 20%; padding-right: 20%;">
         <div style="position: relative;">
             <i class="fas fa-envelope" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tina_sheng@palmdrive.cn</span>
         </div>
           <br>
         <div style="position: relative;">
-            <i class="fab fa-facebook-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
-        </div>
-          <br>
-        <div style="position: relative;">
-            <i class="fab fa-twitter-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
-        </div>
-          <br>
-        <div style="position: relative;">
-            <i class="fab fa-instagram-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
+            <i class="fab fa-weixin" style="color: rgb(88, 193, 187); font-size: 1.9em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tinasheng002</span>
         </div>
       </div>
       <div class="modal-footer">

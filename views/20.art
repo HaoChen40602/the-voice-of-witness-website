@@ -86,8 +86,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>COVID-19 in China Project</title>
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
+<link href="/css/all.min.css" rel="stylesheet">
   </head>
   <body style="background-color: rgb(240, 238, 243)"  onload="load();">
     <!-- Optional JavaScript -->
@@ -126,34 +125,37 @@
         </nav>
         <div id="template">
             <div style="grid-area: cont">
-                <img src="/dummy.jpg" class="rounded mx-auto d-block img-fluid" alt="..." id="image1">
-                <div id="intro">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                <h3 style="text-align: center; padding-top: 20px;"> The Perspective of a Merited Student Leader</h3>
+                <div id="intro" style="padding: 20px">
+                Laura Tavares is a rising senior at Carlucci American International School of Lisbon (CAISL), and is one of the student council members as well as a resident of the city of Lisbon. Laura is a diligent and outgoing student who is friendly and helpful towards every student, and whom everyone acknowledges as a responsible leader.  But similar to many other students, Laura had a hard time adjusting to the sudden change in her life when her school closed its campus in March.
                 </div>
                 <div id="contentArea">
-                    <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                    </p>
-                    <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                    </p>
-                    
+                <h5 style="text-align: center; font-weight: bold">Major Impacts of COVID-19 on a High School Senior</h5>
+                    <p>At the very start, the most significant impact was the change in my deadlines: for example, I was supposed to perform multiple experiments in my science subjects - biology, chemistry and physics - before the end of the semester, but due to the arrival of the coronavirus, all of these had to be delayed. This made me feel quite stressed, which then caused me to become less effective and productive while working. I feel that there’s a lot of uncertainty, and I would say that my grades have also gotten worse after the outbreak because the atmosphere isn’t ideal for us to study in. But there is one positive side: as I was forced to stay home, I was able to dedicate more time to my studies, even though sometimes I felt less encouraged to do so.</p>
+                    <h5 style="text-align: center; font-weight: bold">Experience As a Resident of Lisbon</h5>
+                    <p>During the first days, it was really tough. After the first few cases in Portugal, Lisbon quickly became the epicenter of the virus in the country, so we were extremely cautious. I live in a condominium, and I didn’t leave it once until I had to go to school to take my final exams. On the streets it was also very bizarre: I passed by a shopping mall that is usually busy, and there was absolutely no one. Many stores and restaurants were closed, and supermarkets were often out of stock, at least at the start. A permanent change is that we don’t use public transportation anymore, which is normally the best way to go around Lisbon. But as a family, our relationship got much better, since we learned to spend time together.</p>
+                    <h5 style="text-align: center; font-weight: bold">Routine During Quarantine</h5>
+                    <p>When virtual school was in session, I woke up much later than I did before the school closed, but my routine was about the same: get ready, have breakfast, attend classes, exercise, have dinner, do schoolwork, and sleep. I would like to point out that I initially expected to be able to get more sleep after quarantine, but I was actually wrong: I still had a lot of work and only slept 4 hours per night on average. I don’t encourage this at all! Something new I did during virtual school was to do more work during lunch break so I had less homework, and I could spend the whole afternoon working out. I also started video calling my friends every night to help me cope with my stress.</p>
+                    <p>During vacation, basically all I do is work out and study. I wake up at 9, then start working out, running, biking and doing some school work before lunch. In the afternoon, I like to go to the beach, do more school work, then go on another bike ride. After dinner, I go on a walk and come home to finish my school work before sleeping.</p>
+                    <h5 style="text-align: center; font-weight: bold">Perspective of a Student Council Representative</h5>
+                    <p>I believe every student had the same basic experience, but those of us in the student council just saw things from a different perspective. We still held weekly meetings, but it was quite tough especially since the seniors were not coming to class anymore after the first few weeks. We asked students how they felt about the transition, and while some could see the positives of the situation, the majority of students tended to complain; therefore, the student council didn’t receive as much positive feedback and acknowledgement. On occasion during the meetings, we even felt discouraged as we did not know what we could do to improve the situation. However, there is still a positive aspect: we had several opportunities to speak to the principal first-hand, so we understood that the school administration was putting a lot of effort into helping the students. In summary, the main difference was that the student council got to see the “big picture” for the whole school, while individual students focused on their own needs.</p>
+                    <p>Student council members provide many services to help other students cope with negative emotions caused by COVID-19. Firstly, we held online town hall meetings, where students of each grade could express their thoughts and suggestions which would later be communicated to the school administration. We also communicated between different grades, so the upperclassmen could give advice to the younger students. We couldn’t get some of our other planned activities going though, and the main obstacle we faced was the lack of incentive for the student body to participate in these virtual events - students usually prefer activities that require physical contact. I would say that certain other clubs contributed more than the student council, such as the community service club, in which we collected materials to make donations. I was also one of the students in charge of reading the daily announcements, and we used that opportunity to provide tips and reminders about COVID-19 for the entirety of the student body.</p>
+                    <p>Of course, I’d be concerned for their health if a CAISL student contracted the virus. But if it happens after school starts again in September, I’d start thinking twice before going to school the next day, since it’s always better to prevent it than to risk it. Overall, I trust the school to take appropriate measures that would benefit the students.</p>
+                    <h5 style="text-align: center; font-weight: bold">Words for the Healthcare Workers</h5>
+                    <p>In the end, I definitely have something to say to health workers. I myself want to study medicine and become a doctor, and in my opinion, the best example of a doctor is one who is willing to sacrifice themselves for the greater good of a community. The healthcare workers in Portugal are very brave, and the same goes for those all around the world: they have not given up even after witnessing the unimaginable scale of the spread of the coronavirus. We should all acknowledge their bravery, selflessness and humility - instead of going on strikes or asking for higher wages, they have stood by the patients’ side the entire time. I would like to thank them, and I’d also like for future doctors to learn from them.</p>
+                    <p style="font-style: italic">Laura’s outstanding skills and work ethic are admired by many of her classmates. During virtual school, her ability to unite the student body while sustaining her own wellbeing was truly put to the test. Impressively, Laura not only managed to stay on top of her school work and use her position to motivate her peers during quarantine, but also maintained a relatively healthy lifestyle by working out to eliminate stress. She spends every day productively and never slacks off. Laura serves as a role model for all high school students whose lives have been largely influenced by COVID-19.</p>
                 </div>
+                
             </div>
             <div style="grid-area: side; margin-top: 40px">
                 <p style="font-size: 1.3em"><strong>Interviewed by</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Name Name</p>
+                <p style="font-style: italic; font-size: 1.3em">Joyce Jiayi Li</p>
                 <p style="font-size: 1.3em"><strong>interviewee</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Name Name</p>
-                <p style="font-size: 1.3em"><strong>Live in</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">City</p>
+                <p style="font-style: italic; font-size: 1.3em"> Laura Tavares</p>
+                <p style="font-size: 1.3em"><strong>interview date</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">8/2/2020</p>
+                <p style="font-size: 1.3em"><strong>Occupation</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">High School Student</p>
             </div>
         </div>
         <hr>
@@ -250,22 +252,12 @@ function load(){
       <div class="modal-body" style="padding-left: 20%; padding-right: 20%;">
         <div style="position: relative;">
             <i class="fas fa-envelope" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tina_sheng@palmdrive.cn</span>
         </div>
           <br>
         <div style="position: relative;">
-            <i class="fab fa-facebook-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
-        </div>
-          <br>
-        <div style="position: relative;">
-            <i class="fab fa-twitter-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
-        </div>
-          <br>
-        <div style="position: relative;">
-            <i class="fab fa-instagram-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
+            <i class="fab fa-weixin" style="color: rgb(88, 193, 187); font-size: 1.9em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tinasheng002</span>
         </div>
       </div>
       <div class="modal-footer">

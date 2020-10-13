@@ -73,15 +73,18 @@ app.get('/document/:id', async function (req, res){
     }else if(Object.keys(input).length == 2){
         const vval = parseInt(input.val);
         await Like.findOne({belong : req.params.id}).then(async function (result){
-            await Like.updateOne({_id: result._id}, {val: (parseInt(result.val) + vval) + ''});
+            if(parseInt(result.val) + vval < 0){
+                await Like.updateOne({_id: result._id}, {val: (0) + ''});
+            }else{
+                await Like.updateOne({_id: result._id}, {val: (parseInt(result.val) + vval) + ''});
+            }
         });
     }
 });
 
-
 app.get("/browsestory", async function(req, res){
     await Like.find().then(async function (result){
-        res.render("browsestory", {
+        res.render("browsestory",{
             likeDC1: result[0].val,
             likeDC2: result[1].val,
             likeDC3: result[2].val,
@@ -101,7 +104,9 @@ app.get("/browsestory", async function(req, res){
             likeDC17: result[16].val,
             likeDC18: result[17].val,
             likeDC19: result[18].val,
-            likeDC20: result[19].val
+            likeDC20: result[19].val,
+            likeDC21: result[20].val,
+            likeDC22: result[21].val
         });
     });
 });

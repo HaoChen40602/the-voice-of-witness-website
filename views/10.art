@@ -86,8 +86,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>COVID-19 in China Project</title>
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
+<link href="/css/all.min.css" rel="stylesheet">
   </head>
   <body style="background-color: rgb(240, 238, 243)"  onload="load();">
     <!-- Optional JavaScript -->
@@ -126,34 +125,28 @@
         </nav>
         <div id="template">
             <div style="grid-area: cont">
-                <img src="/dummy.jpg" class="rounded mx-auto d-block img-fluid" alt="..." id="image1">
-                <div id="intro">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                <h3 style="text-align: center; padding-top: 20px;">Life Routine in Half-quarantine</h3>
+                <div id="intro" style="padding: 20px">
+                Aor is a native Thai, who is currently 34 years old. Chiang Mai is her hometown and the city that she lives in. Aor’s lifestyle is simple, she lives with her mom and her grandma, and cooking is her favorite thing to do in leisure time. Coronavirus impacts her life significantly due to the dangerous health condition of her grandma, she explained in detail in the interview.
                 </div>
                 <div id="contentArea">
-                    <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                    </p>
-                    <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                    </p>
-                    
+                    <p>When I first heard about coronavirus, I was really confused since it never happened around the world before, especially in my lifetime. But the fact that everyone started to wear masks on the street gave me a shock. However, due to the announcement of the Thai government, there is really no much change in my life, I can still go to the workplace every day and my life goes on the same.</p>
+                    <p>  Since my grandmother gets ill and stays in the hospital right now, I went to the hospital this weekend but they don’t allow people to visit patients anymore. I really worry about her staying there alone without any company. But luckily, she is safe there.</p>
+                    <p>  Since I was born, we never have this kind of situation before, I used to go to church and see other members every week. But everything ceased due to the coronavirus. In my opinion, self-quarantine is the expression of responsibility for the community as everyone has the chance of carrying the virus. Even though it is the time for Thai New Year, but it doesn’t affect me much because I don’t celebrate Songkran normally as well.</p>
+                    <p>  In Thailand, there are many people lost their jobs due to coronavirus, which caused them to live with no money and food. They really need donations to guarantee their basic lives. I have some friends in the condition of unemployment right now. As their companies closed, they can receive the salary that they use to have. Talking about the Thai government, I think they take action way too late to lock down the country. There is no more chance to suppress the situation of coronavirus by manipulating the flow of the population. In term of medical supply, Thailand doesn’t have enough equipment for hospitals and citizens anymore, which is a serious problem. Personally speaking, I am not really worried under the bless of God.</p>
+                    <p>  Last thing I want to say is people should take the responsibility that they should have for the people around and the whole society. They should be aware of going to risky places since children and elders are easy to be affected compare to healthy youths. My grandmother stayed at hospital for nine days and eight nights already, I really scared that she gets the virus in hospital, where is highly risky. </p>
+                    <p style="font-style: italic">Aor is still carrying on her normal life and going to work with close attention. At the same time, she trying to take the best care of her grandmother and get her out of the dangerous condition.</p>
                 </div>
             </div>
             <div style="grid-area: side; margin-top: 40px">
                 <p style="font-size: 1.3em"><strong>Interviewed by</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Name Name</p>
+                <p style="font-style: italic; font-size: 1.3em">Yian(Ann) Zhao</p>
                 <p style="font-size: 1.3em"><strong>interviewee</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Name Name</p>
-                <p style="font-size: 1.3em"><strong>Live in</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">City</p>
+                <p style="font-style: italic; font-size: 1.3em">Aor</p>
+                <p style="font-size: 1.3em"><strong>interview date</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">4/20/2020</p>
+                <p style="font-size: 1.3em"><strong>Occupation</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Officer at Research Institute for Health Sciences, Chiang Mai University</p>
             </div>
         </div>
         <hr>
@@ -250,22 +243,12 @@ function load(){
       <div class="modal-body" style="padding-left: 20%; padding-right: 20%;">
         <div style="position: relative;">
             <i class="fas fa-envelope" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tina_sheng@palmdrive.cn</span>
         </div>
           <br>
         <div style="position: relative;">
-            <i class="fab fa-facebook-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
-        </div>
-          <br>
-        <div style="position: relative;">
-            <i class="fab fa-twitter-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
-        </div>
-          <br>
-        <div style="position: relative;">
-            <i class="fab fa-instagram-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
+            <i class="fab fa-weixin" style="color: rgb(88, 193, 187); font-size: 1.9em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tinasheng002</span>
         </div>
       </div>
       <div class="modal-footer">

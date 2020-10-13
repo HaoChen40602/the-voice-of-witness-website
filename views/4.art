@@ -86,7 +86,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>COVID-19 in China Project</title>
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="/css/all.min.css" rel="stylesheet">
 
   </head>
   <body style="background-color: rgb(240, 238, 243)"  onload="load();">
@@ -126,34 +126,29 @@
         </nav>
         <div id="template">
             <div style="grid-area: cont">
-                <img src="/dummy.jpg" class="rounded mx-auto d-block img-fluid" alt="..." id="image1">
-                <div id="intro">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                <h3 style="text-align: center; padding-top: 20px;">Being Pregnant in a Pandemic</h3>
+                <div id="intro" style="padding: 20px">
+                The first person I chose to interview was Ms. Vivian Guo, who currently resides in Cascais, Portugal. She has a three-year-old son, and has additionally been pregnant for 38 weeks. Undoubtedly, the spread of COVID-19 in Portugal has created various obstacles in her life as a mother and pregnant woman. There are numerous possible risks to the health of Ms. Guo, her toddler son and her unborn child as a result of the virus, and it is therefore absolutely imperative that she is wary of them every time she leaves her home. I am curious to learn more about such potential dangers, the measures taken to prevent them, and overall, how Ms. Guo is coping with the inevitable distress caused by this situation.
                 </div>
                 <div id="contentArea">
-                    <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                    </p>
-                    <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                    </p>
-                    
+                <p>As prenatal visits are necessary to ensure that both the pregnant lady and the baby are in good health, hospitals have taken measures to prevent the coronavirus from interfering with these visits. The maternity department has been isolated from other departments of the hospital, so it is relatively safe for me to visit. Therefore, COVID-19 has had little impact on the process of maternal care, and fortunately the number of check-ups I can do has not been lessened due to the virus. I am only allowed to enter the department alone with a mask on, and they provide hand sanitizers. The nurses also check my temperature beforehand. I have not experienced any discrimination from the hospital workers, and they always treat me in an amiable manner.</p>
+                    <p>When the coronavirus started spreading in Wuhan and entire cities were put in quarantine, my family and friends in China told me about the severity of the virus. Ever since then I began feeling afraid that I could catch the virus if I went outside, despite the fact that I lived in a country which had no confirmed cases at the time. When Portugal had its first case, I became even more scared. Therefore, aside from prenatal visits, I have been refraining from leaving my home.</p>
+                    <p>I have been reading news about the virus every day to stay informed on the situation in my area, as well as the precautions I should be taking. My primary concern is that the food items brought into my house may be contaminated with the virus; therefore, every time my husband visits the supermarket near our house, we make sure to disinfect all of the packages and products. We have also been taking other preventative measures, including wearing masks and gloves when going outside, washing our hands for more than 20 seconds, disinfecting everything that can carry the virus such as phones and clothing, refraining from going to large gatherings, and properly ventilating our house. Additionally, it is important for us to exercise in order to maintain a healthy lifestyle.</p>
+                    <p>The biggest change in my daily life has to do with the way in which my family purchases things. Of course, we cannot go to malls anymore, so we are mainly shopping online for necessities. Luckily the online shopping system has improved in terms of convenience and efficiency: Chinese supermarkets in Lisbon offer free delivery of products to Cascais every week. Portuguese supermarkets seem to have also increased their productivity, seeing as the shelves are always restocked in time. Again, as long as we make sure to disinfect everything, I feel relatively safe buying products. Another significant change is that we are no longer accepting guests to our Airbnb. On the bright side, that’s one less thing to worry about for me. The last thing is that although I have not met with my friends in a while, we occasionally video call to stay connected.</p>
+                    <p>I have faith in the healthcare workers, and I appreciate the hard work they are constantly doing to ensure the safety of everyone else. I would like for them, along with their families, to stay safe, and continue pushing through! When the time comes, I hope to deliver my baby safely and smoothly, without interference from the coronavirus. I also hope that my eldest son can attend school normally soon. Finally, I wish for everybody to stay strong and to never forget that the world is filled with hope and love. If all of us are willing to put in the effort to continue social distancing, I’m sure we can overcome the threat of the pandemic together! </p>
+                    <p style="font-style: italic">As a pregnant mother separated from the majority of her family members, Ms. Guo’s life had undoubtedly become much more difficult as a result of the pandemic. I am very glad that she has not experienced any additional obstacles in the prenatal care process (potential ones including discrimination). I admire her courage, and hope everything goes smoothly for her to safely deliver the baby.</p>
                 </div>
+                
             </div>
             <div style="grid-area: side; margin-top: 40px">
                 <p style="font-size: 1.3em"><strong>Interviewed by</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Name Name</p>
+                <p style="font-style: italic; font-size: 1.3em">Joyce Li</p>
                 <p style="font-size: 1.3em"><strong>interviewee</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Name Name</p>
-                <p style="font-size: 1.3em"><strong>Live in</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">City</p>
+                <p style="font-style: italic; font-size: 1.3em">Xiaoying (Vivian) Guo</p>
+                <p style="font-size: 1.3em"><strong>interview date</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">6/25/2020</p>
+                <p style="font-size: 1.3em"><strong>Occupation</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Freelancer/Airbnb host</p>
             </div>
         </div>
         <hr>
@@ -250,22 +245,12 @@ function load(){
       <div class="modal-body" style="padding-left: 20%; padding-right: 20%;">
         <div style="position: relative;">
             <i class="fas fa-envelope" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tina_sheng@palmdrive.cn</span>
         </div>
           <br>
         <div style="position: relative;">
-            <i class="fab fa-facebook-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
-        </div>
-          <br>
-        <div style="position: relative;">
-            <i class="fab fa-twitter-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
-        </div>
-          <br>
-        <div style="position: relative;">
-            <i class="fab fa-instagram-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
+            <i class="fab fa-weixin" style="color: rgb(88, 193, 187); font-size: 1.9em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tinasheng002</span>
         </div>
       </div>
       <div class="modal-footer">

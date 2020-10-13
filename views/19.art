@@ -86,8 +86,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>COVID-19 in China Project</title>
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
+<link href="/css/all.min.css" rel="stylesheet">
   </head>
   <body style="background-color: rgb(240, 238, 243)"  onload="load();">
     <!-- Optional JavaScript -->
@@ -126,34 +125,26 @@
         </nav>
         <div id="template">
             <div style="grid-area: cont">
-                <img src="/dummy.jpg" class="rounded mx-auto d-block img-fluid" alt="..." id="image1">
-                <div id="intro">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                </div>
+                <h3 style="text-align: center; padding-top: 20px;">The Influence of Corona Virus on My Work</h3>
+                <div id="intro" style="padding: 20px">
+I am a dentist, as well as the director, professor, and doctoral supervisor working in the dental department of a public hospital. Unlike the majority of the people, being a medical professional I am, I have access to learn the pandemic of novel coronavirus via a professional channel.                 </div>
                 <div id="contentArea">
-                    <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                    </p>
-                    <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                    </p>
-                    
+                <p>Prior to the news reporting, we were informed of the new virus by the hospital that such virus already emerged in Wuhan; it could be an infectious disease. It was in December then and it didn't draw much attention, the hospital took routine days off since the condition wasn't as severe and Beijing was considered as relatively safe; virus was thought as only existed in Wuhan with a few cases. However, virus broke out around Chinese New Year with certain confirmed symptoms such as fever. I had a fever before the Chinese New Year and I wasn't the only one, my colleagues and supervisors also did despite we never had any contact with the epidemic area. The fever was gone in a few days and we were thus not required for a systematic examination nor a quarantine. In the middle of the Chinese New Year, gathering was banned by the country, wearing mask and disinfection was required. The situation exacerbated, the examination for patients with fever also became more strict. At the same time, the hospital had begun taking more strict protective measurements as well as treating patients with fever with more strict examinations. Before the outbreak, if it was only fever symptom but no contact with personnel from Wuhan, the patient could be ruled out for novel coronavirus infection. As the outbreak intensified, as long as there was fever or even aggregative fever, the patient was required for testing and radiography; in case of pneumonia detected, the patient would be quarantined right away. One method was to self-quarantine at home for 14 days, if the symptoms deteriorated, special quarantine at the hospital was taken action.</p>
+                <p>As the epidemic became more severe, our hospital was assigned as the designated hospital for treating fever; the hospital began putting together a medical team to support Wuhan and preserving wards for stay and observation. The hospital then immediately organized a number of doctors to routinely work in shifts and issued notification for holiday extension. Being the department head, I needed to arrange some works so I returned there earlier. Since then, hospital's (protective) level rose, so did the measurements for medical staff. My department, dental, had a higher chance of being infected since it involved (certain operations) applying dental drill. While using,  (it generated) mist. The virus was transmitted via saliva so we were at high risk of being infected. Therefore, our dental department took our actions for protection, trained the staff for rehearsal and conducted material (protective tools) preparation. </p>
+                <p>Medical staff with work permit were able to access whilst patients were limited to enter the area. First of all, patients were required to register online for appointment. After successful completion of the procedure, they could visit the hospital with such appointment information. Upon entrance in the hospital, patients were about to have several check-ups. The first was to take temperature; if it was high, patients were sent to the fever outpatient service right away, if the temperature was alright, patients then proceeded to the department (for specific disease) and the nurse would take the temperature for the second time since patients might be detected fever during this second level screening. At the same time, patients were questioned about where they came from (district), if they were from Wuhan or they had contacts with people and/or (coronavirus) patients from the epidemic area, immediately registration was made for quarantine. In case of fever detected, the fever outpatient service would be informed in a timely manner to be prepared for taking in the patient. If patients had no fever symptom nor contact history, they were allowed to enter the specific department while the fever outpatient service would further investigate the cause of fever was novel coronavirus, flu, common cold or other disease. If the patient was a suspected of being infected, (the patient) would have a group consultation by experts, then conducted nucleic acid tests for three times and all three results had to be negative to confirm. If it was a suspected case, the patient would be professionally quarantined by the hospital.</p>
+                    <p>It was influenced greatly (by the epidemic). Normally, so many patients came that even the registration was a challenge. But under this (coronavirus outbreak) circumstance, the number of visiting patients drastically declined; they avoided visiting the hospital as they could. They bore the toothache or other discomfort, they only came to the hospital if it was unbearable or the symptoms were too severe. Since the diagnosis needed the patient to take mask off, the risk of being infected was higher than ever, we had to take measurements to reduce the risk such as leaving one patient in one room to treat them separately. Given the virus' long incubation period and no sign of any symptom during the beginning stage, to lower the risk of infection, doctors suggested those with longer time for treatment and higher risk to delay or select a better time for treatment. </p>
+                    <p>The impact on daily life was that I couldn't return to my hometown for Chinese New Year, and the whole holiday had no vibe at all since I was unable to visit my family members. We had worked hard all year long yet we couldn't relax during the new year, all outdoor activities required examination and we were concerned about the infection, the panic brought huge influence to the mood. In fact, we went to hospital was no different than preparing for a war, the hospital was the frontline since it had a much higher risk and we had to be extra careful which was a lot of mental pressure. Being the dentist, I didn't have direct contact with patients who had fever, I was relatively safer. But many of my colleagues had gone to the real frontline, they suffered greater pressure, the epidemic had even more impact on their life. Given the outbreak, the high risk, there were fewer visiting patients. We also had more meticulous protection while working. When we were about to treat a patient, we put on one coat after another. All medical staff wore white coat, protective uniform, and mask. The mask was N95 which was rather suffocating. Lastly, we wore big goggles and face shield. The complete set of equipment was very hot and stuffy. While it was needed to perform certain treatment operation, medical staff had to bring a magnifying glass. Every time to treat a patient, not only all kinds of protective equipment limited my movements, but also it caused me to perspire heavily all over my body. The treatment process was rather inconvenient. But all of these could be overcome. Most importantly, because of this epidemic, the whole hospital's operation was impacted. For instance, many patients were forced to stop their treatment. Some of the departments' internal plans were delayed, like the projects, employee recruitment, and face-to-face trainings were all paused. Therefore the epidemic brought great influence on work.</p>
                 </div>
             </div>
             <div style="grid-area: side; margin-top: 40px">
                 <p style="font-size: 1.3em"><strong>Interviewed by</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Name Name</p>
+                <p style="font-style: italic; font-size: 1.3em">Angel Zihui Lin</p>
                 <p style="font-size: 1.3em"><strong>interviewee</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Name Name</p>
-                <p style="font-size: 1.3em"><strong>Live in</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">City</p>
+                <p style="font-style: italic; font-size: 1.3em">Jiang Lin</p>
+                <p style="font-size: 1.3em"><strong>interview date</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">March 10, 2020 </p>
+                <p style="font-size: 1.3em"><strong>Occupation</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Dentist</p>
             </div>
         </div>
         <hr>
@@ -250,22 +241,12 @@ function load(){
       <div class="modal-body" style="padding-left: 20%; padding-right: 20%;">
         <div style="position: relative;">
             <i class="fas fa-envelope" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tina_sheng@palmdrive.cn</span>
         </div>
           <br>
         <div style="position: relative;">
-            <i class="fab fa-facebook-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
-        </div>
-          <br>
-        <div style="position: relative;">
-            <i class="fab fa-twitter-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
-        </div>
-          <br>
-        <div style="position: relative;">
-            <i class="fab fa-instagram-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
+            <i class="fab fa-weixin" style="color: rgb(88, 193, 187); font-size: 1.9em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tinasheng002</span>
         </div>
       </div>
       <div class="modal-footer">

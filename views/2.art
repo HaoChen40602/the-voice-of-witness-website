@@ -84,8 +84,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>COVID-19 in China Project</title>
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
+<link href="/css/all.min.css" rel="stylesheet">
   </head>
   <body style="background-color: rgb(240, 238, 243)"  onload="load();">
     <!-- Optional JavaScript -->
@@ -124,34 +123,31 @@
         </nav>
         <div id="template">
             <div style="grid-area: cont">
-                <img src="/dummy.jpg" class="rounded mx-auto d-block img-fluid" alt="..." id="image1">
-                <div id="intro">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                <h3 style="text-align: center; padding-top: 20px;">A Normal Citizen Under Epidemic</h3>
+                <div id="intro" style="padding: 20px">
+                A doctor who stayed in Yichang, Hubei, for his winter vacation,  providing us with his own life experiences. Yichang and Wuhan are two cities in Hubei.
                 </div>
                 <div id="contentArea">
                     <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                        I came back to my hometown in Yichang, Hubei, not long after the winter vacation began, when the epidemic didn’t catch much attention. As time went on, the epidemic got more and more serious. And after celebrating the NewYear‘s eve at home, Wuhan announced to seal off the city from all outside contact to stop the spread of the plague. Not long after that, Yichang was sealed off, too. 
                     </p>
                     <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                    Life here is fine, actually. It doesn’t mean that my family and I couldn’t get enough food to eat. Life at home is quite normal, except here in my community, are strict rules for going out, even out to the shops to buy food. For every two days, one single person at a house is allowed to go out to buy food as a representative of the family. The shops outside of our community have strict rules too, it is allowed to have only two people in the shop at the same time. There are also delivery services to send food to the gate of our community. In this way, the chance of meeting other people is largely decreased. Luckily, even though taking a walk in the community is not allowed, we can still breathe fresh air in the little garden in our house.
                     </p>
-                    
+                    <p>Without sitting at my desk at my workplace in Beijing, I can still work through dozens of online social medias, such as, the apps called Zoom and Dingding. As a result of the epidemic, many apps and database was free during this time in China. The works including managing and statistics can be done there. During the work hours, I get to know how difficult the works at hospitals in Wuhan is. Doctors and nurses from all over the country have come to Wuhan to help immediately, including my workmates. Not only those who specializes in areas that have to do with lungs, but any doctors or nurses with basic knowledge of taking care of patients have the qualification of coming to Wuhan for help. After reading the handbook of basic instructions of taking care of Covid-19 patients, they can easily get familiar with those stuffs. According to my workmates’ experience, they are facing many difficulties during their work hours. For example, with the protective clothing on, it gets difficult for them to deal with daily physiological needs. They tried to drink as little water as possible and wearing diapers in order to decrease the need of going to toilet. The physiological needs and psychological needs of patients are the two indispensable parts of the nurses’ jobs. Some of the patients have difficulty having meals or going to the toilet, and it is easy for patients to get depressed or lose hope. It is the nurses’ job to help patients with these problems. During the 10-12 work hours per day, they have done an incredible job in taking care of patients. Without them, we don’t stand a chance to beat the coronal virus. Sadly, many of the doctors and nurses get infected by the fast-spreading disease. I am deeply sorry for them.</p>
+                    <p>Everyone here is involved in this epidemic, no matter you are a doctor, a business man, or a student. People on the streets are all wearing masks, many cinemas and restaurants are unwillingly closed as a result of the policies for the epidemic, and the time for schools to open is delayed. Everyone has the duty to avoid meeting people, and therefore we are all contributing to the victory against the epidemic. I will never forget this big event in China’s history, and the people suffered from the disease.</p>
+                    <p style="font-style: italic">When China ended the lockdown of Yichang. The interviewee came back to Beijing, where he was preparing for his normal daily work.</p>
                 </div>
             </div>
             <div style="grid-area: side; margin-top: 40px">
                 <p style="font-size: 1.3em"><strong>Interviewed by</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Name Name</p>
+                <p style="font-style: italic; font-size: 1.3em">Yoseph Yang</p>
                 <p style="font-size: 1.3em"><strong>interviewee</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Name Name</p>
-                <p style="font-size: 1.3em"><strong>Live in</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">City</p>
+                <p style="font-style: italic; font-size: 1.3em">Anonymous</p>
+                <p style="font-size: 1.3em"><strong>interview date</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">03/07/2020</p>
+                <p style="font-size: 1.3em"><strong>Occupation</strong></p>
+                <p style="font-style: italic; font-size: 1.3em">Doctor</p>
             </div>
         </div>
         <hr>
@@ -248,22 +244,12 @@ function load(){
       <div class="modal-body" style="padding-left: 20%; padding-right: 20%;">
         <div style="position: relative;">
             <i class="fas fa-envelope" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tina_sheng@palmdrive.cn</span>
         </div>
           <br>
         <div style="position: relative;">
-            <i class="fab fa-facebook-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
-        </div>
-          <br>
-        <div style="position: relative;">
-            <i class="fab fa-twitter-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
-        </div>
-          <br>
-        <div style="position: relative;">
-            <i class="fab fa-instagram-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
+            <i class="fab fa-weixin" style="color: rgb(88, 193, 187); font-size: 1.9em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tinasheng002</span>
         </div>
       </div>
       <div class="modal-footer">

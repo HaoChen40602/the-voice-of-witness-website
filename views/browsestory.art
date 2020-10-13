@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>COVID-19 in China Project</title>
     <link href="css/browseStory.css" rel="stylesheet">
-    <link href="css/all.min.css" rel="stylesheet">
-    <link href="css/fontawesome.min.css" rel="stylesheet">
+    <link href="/css/all.min.css" rel="stylesheet">
     <meta name="description" content="Voice of witness coronavirus outbreak" />
     <meta name="auther" content="Hao Chen" />
     <meta name="robot" content="archive, index, follow, imageindex" />
@@ -52,9 +51,8 @@
              <form class="form-inline my-2 my-lg-0" id="sort">
                 <div class="col-auto my-1">
                   <select class="custom-select mr-sm-2" id="sorting">
-                    <option selected>Sort By</option>
-                    <option value="Like">Like</option>
                     <option value="Title">Title</option>
+                    <option value="Like">Like</option>
                     <option value="Random">Random</option>
                   </select>
                 </div>
@@ -71,367 +69,403 @@
       <div id="page" style="background-color: white; width: 900px; margin-left: auto; margin-right: auto; margin-top: 0px; padding-top: 20px; position: relative; left: 100px;">
         <div id='postContainer'>
             <h1 style="display: none" id="no-result">Sorry No result Was Found</h1>
-            <div class="card" data-title='Post 1 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC1%>'>
+            <div class="card" data-title='A Non-respiratory Doctor's Experience of Epidemic Disease Stone is a doctor in a hospital in Hebei province. He has been working for more than 20 years and is now the deputy chief physician. He remained calm in the face of the epidemic. Stone Pseudonym 49 Doctor 3/9/2020' data-like='<%= likeDC1%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us1</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>A Non-respiratory Doctor's Experience of Epidemic Disease</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">3/9/2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation: Doctor
                 </h5>
                 <div class="cardDynamic">
-                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <i class="fas fa-heart" style="color: pink"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC1%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
-                </p>
+Stone is a doctor in a hospital in Hebei province. He has been working for more than 20 years and is now the deputy chief physician. He remained calm in the face of the epidemic.</p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/1">Learn More</a>
             </div>
-            <div class="card" data-title='Post 2 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC2%>'>
+            
+            <div class="card" data-title='A Normal Citizen Under Epidemic A doctor who stayed in Yichang, Hubei, for his winter vacation,  providing us with his own life experiences. Yichang and Wuhan are two cities in Hubei. 03/07/2020 Yoseph Yang  Doctor at Beijing Anzhan Hospital, Capital Medical University Anonymous' data-like='<%= likeDC2%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us2</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>A Normal Citizen Under Epidemic</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">03/07/2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation：Doctor
                 </h5>
                 <div class="cardDynamic">
                     <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC2%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
-                </p>
+A doctor who stayed in Yichang, Hubei, for his winter vacation,  providing us with his own life experiences. Yichang and Wuhan are two cities in Hubei.                </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/2">Learn More</a>
             </div>
-            <div class="card" data-title='Post 3 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC3%>'>
+            <div class="card" data-title='Back to My Home Country During COVID as a Student Abroad Haoyang Li Freshman at University of Virginia Yifei Zhang 4/2/2020 Haoyang Li, 17 years old, is a freshman student at University of Virginia, USA. As a student abroad, she told us about her anxiety being abroad after the coronavirus breakout in her home country, China. She also shared her experience of deciding to go back after facing discrimination, being on an airplane, and quarantining.' data-like='<%= likeDC3%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us3</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>Back to My Home Country During COVID as a Student Abroad</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">4/2/2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation: Student
                 </h5>
                 <div class="cardDynamic">
                     <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC3%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                    Haoyang Li, 17 years old, is a freshman student at University of Virginia, USA. As a student abroad, she told us about her anxiety being abroad after the coronavirus breakout in her home country, China. She also shared her experience of deciding to go back after facing discrimination, being on an airplane, and quarantining.
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/3">Learn More</a>
             </div>
-            <div class="card" data-title='Post 4 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC4%>'>
+            <div class="card" data-title='Being Pregnant in a Pandemic Xiaoying Vivian Guo Freelancer/Airbnb host Joyce Li 6/25/2020 The first person I chose to interview was Ms. Vivian Guo, who currently resides in Cascais, Portugal. She has a three-year-old son, and has additionally been pregnant for 38 weeks. Undoubtedly, the spread of COVID-19 in Portugal has created various obstacles in her life as a mother and pregnant woman. There are numerous possible risks to the health of Ms. Guo, her toddler son and her unborn child as a result of the virus, and it is therefore absolutely imperative that she is wary of them every time she leaves her home. I am curious to learn more about such potential dangers, the measures taken to prevent them, and overall, how Ms. Guo is coping with the inevitable distress caused by this situation.' data-like='<%= likeDC4%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us4</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>Being Pregnant in a Pandemic</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);"> 6/25/2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation: Freelancer/Airbnb host
                 </h5>
                 <div class="cardDynamic">
                     <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC4%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                    The first person I chose to interview was Ms. Vivian Guo, who currently resides in Cascais, Portugal. She has a three-year-old son, and has additionally been pregnant for 38 weeks. Undoubtedly, the spread of COVID-19 in Portugal has created various obstacles in her life as a mother and pregnant woman. There are numerous possible risks to the health of Ms. Guo, her toddler son and her unborn child as a result of the virus, and it is therefore absolutely imperative that she is wary of them every time she leaves her home. I am curious to learn more about such potential dangers, the measures taken to prevent them, and overall, how Ms. Guo is coping with the inevitable distress caused by this situation.
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/4">Learn More</a>
             </div>
-            <div class="card" data-title='Post 5 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC5%>'>
+            <div class="card" data-title='COVID’s impact on life and work Jiang Lin Dentist Zihui Lin  3/23/2020 The interviewee is a dentist at a public hospital in Beijing, China. He tells what he noticed during the COVID-19 pandemic, including the hospital’s measures and COVID’s impact on his career and personal life.' data-like='<%= likeDC5%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us5</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>COVID’s impact on life and work</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">3/23/2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation: Dentist
                 </h5>
                 <div class="cardDynamic">
                     <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC5%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
-                </p>
+The interviewee is a dentist at a public hospital in Beijing, China. He tells what he noticed during the COVID-19 pandemic, including the hospital’s measures and COVID’s impact on his career and personal life.                </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/5">Learn More</a>
             </div>
-            <div class="card" data-title='Post 6 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC6%>'>
+            <div class="card" data-title='How is My Life During City’s Lockdown Period ---- narrative of a local Hubei resident  Mr. Lin anonymous Company Manager Ariel Our interviewee, Mr. Lin, is a company manager in Guangzhou. During New Year in 2020, he went back to his hometown Hubei to celebrate New Year, however, he was stuck there due to the outbreak of the epidemic and spend months at home for quarantine. During most of the time, Mr. Lin kept a positive mood and used this time as a chance for record and reflection on his life. Also, he wants to express his sincere appreciation for the medical stuffs who worked on the first-line of the epidemic' data-like='<%= likeDC6%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us6</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>How is My Life During City’s Lockdown Period ---- narrative of a local Hubei resident</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">3/10/2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation: Company Manager
                 </h5>
                 <div class="cardDynamic">
                     <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC6%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                    Our interviewee, Mr. Lin, is a company manager in Guangzhou. During New Year in 2020, he went back to his hometown Hubei to celebrate New Year, however, he was stuck there due to the outbreak of the epidemic and spend months at home for quarantine. During most of the time, Mr. Lin kept a positive mood and used this time as a chance for record and reflection on his life. Also, he wants to express his sincere appreciation for the medical stuffs who worked on the first-line of the epidemic.
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/6">Learn More</a>
             </div>
-            <div class="card" data-title='Post 7 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC7%>'>
+            <div class="card" data-title='Impact of COVID-19 on High School Student from overseas Nalisa Xu High School Student Shelly Zhu 4/12/2020 Nalisa was born in Shanghai, and she immigrated to America with her family after finishing grade 7. They currently live in Long Island, New York. As a senior, COVID-19 changes her life to a wide extent, the graduation ceremony eventually became unrealistic too.' data-like='<%= likeDC7%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us7</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>Impact of COVID-19 on High School Student from overseas</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">4/12/2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation: High School Student
                 </h5>
                 <div class="cardDynamic">
                     <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC7%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                    Nalisa was born in Shanghai, and she immigrated to America with her family after finishing grade 7. They currently live in Long Island, New York. As a senior, COVID-19 changes her life to a wide extent, the graduation ceremony eventually became unrealistic too.
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/7">Learn More</a>
             </div>
-            <div class="card" data-title='Post 8 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC8%>'>
+            <div class="card" data-title='Isolation and Online Teaching during the Outbreak Fang Yu Teacher for teaching Chinese as a Foreign language Yushi Dong 3/5/2020 Fang is a teacher teaching Chinese to the foreigners in university. She and her husband and her child went to their hometown, Enshi (the city in Hubei province, which is the explosive  of the virus) They took their journey in the winter holiday.' data-like='<%= likeDC8%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us8</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>Isolation and Online Teaching during the Outbreak</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);"> 3/5/2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation: Teacher
                 </h5>
                 <div class="cardDynamic">
                     <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC8%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                    Fang is a teacher teaching Chinese to the foreigners in university. She and her husband and her child went to their hometown, Enshi (the city in Hubei province, which is the explosive  of the virus) They took their journey in the winter holiday.
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/8">Learn More</a>
             </div>
-            <div class="card" data-title='Post 9 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC9%>'>
+            <div class="card" data-title='Life experience of the epidemic Tang Jie Teacher  Chuxin Liang 3/19/2020 My name is Tang Jie. I am a Chinese teacher from The Anglo Chinese School in Singapore. I am 40 years old.' data-like='<%= likeDC9%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us9</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>Life experience of the epidemic</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">3/19/2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation: Teacher
                 </h5>
                 <div class="cardDynamic">
                     <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC9%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                    My name is Tang Jie. I am a Chinese teacher from The Anglo Chinese School in Singapore. I am 40 years old.
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/9">Learn More</a>
             </div>
-            <div class="card" data-title='Post 10 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC10%>'>
+            <div class="card" data-title='Life Routine in Half-quarantine Aor Officer at Research Institute for Health Sciences, Chiang Mai University Yian Ann Zhao 4/20/2020 Aor is a native Thai, who is currently 34 years old. Chiang Mai is her hometown and the city that she lives in. Aor’s lifestyle is simple, she lives with her mom and her grandma, and cooking is her favorite thing to do in leisure time. Coronavirus impacts her life significantly due to the dangerous health condition of her grandma, she explained in detail in the interview.' data-like='<%= likeDC10%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us10</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>Life Routine in Half-quarantine</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">4/20/2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation: Officer at Research Institute
                 </h5>
                 <div class="cardDynamic">
                     <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC10%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                    Aor is a native Thai, who is currently 34 years old. Chiang Mai is her hometown and the city that she lives in. Aor’s lifestyle is simple, she lives with her mom and her grandma, and cooking is her favorite thing to do in leisure time. Coronavirus impacts her life significantly due to the dangerous health condition of her grandma, she explained in detail in the interview.
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/10">Learn More</a>
             </div>
-            <div class="card" data-title='Post 11 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC11%>'>
+            <div class="card" data-title='Not a Surprise Piero Freelance Worker Heidi Yang 7/18/2020 The person that I interviewed is an Italian who lives in Cascais. The spread of the virus has greatly affected him. Usually during summer vacation, he and his family travel back to Italy. Unfortunately, he couldn’t leave Portugal this year due to the virus. Additionally, Italy was the first country in Europe that experienced an outbreak of the virus. I thought it would be interesting to interview him about how this virus has impacted him emotionally as well as in his daily life.' data-like='<%= likeDC11%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us11</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>Not a Surprise</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">7/18/2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation: Freelance Worker
                 </h5>
                 <div class="cardDynamic">
                     <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC11%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                    The person that I interviewed is an Italian who lives in Cascais. The spread of the virus has greatly affected him. Usually during summer vacation, he and his family travel back to Italy. Unfortunately, he couldn’t leave Portugal this year due to the virus. Additionally, Italy was the first country in Europe that experienced an outbreak of the virus. I thought it would be interesting to interview him about how this virus has impacted him emotionally as well as in his daily life.
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/11">Learn More</a>
             </div>
-            <div class="card" data-title='Post 12 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC12%>'>
+            <div class="card" data-title='Observation from a foreign teacher in China Christopher Howell Occupation high school Economic teacher Luxin Chen  3/23/2020 Christopher is from Texas, the United States. He now works and lives in Suzhou, China. He is an Economic teacher in an international high school. During the outbreak, he mainly stayed in Suzhou and made detailed observation about the situation. As a foreigner who has lived in China for seven years, Christopher talked a lot about his feelings based on his experience.' data-like='<%= likeDC12%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us12</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>Observation from a foreign teacher in China</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);"> 3/23/2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation: high school teacher
                 </h5>
                 <div class="cardDynamic">
                     <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC12%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                    Christopher is from Texas, the United States. He now works and lives in Suzhou, China. He is an Economic teacher in an international high school. During the outbreak, he mainly stayed in Suzhou and made detailed observation about the situation. As a foreigner who has lived in China for seven years, Christopher talked a lot about his feelings based on his experience.
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/12">Learn More</a>
             </div>
-            <div class="card" data-title='Post 13 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC13%>'>
+            <div class="card" data-title='Travel back home and quarantine experience of a high school student in the US Yichen Yang Occupation Student Luxin Chen  2/4/2020 Yichen is a Chinese student studying in an American high school located in Westlake Village near Beverly Hills in Los Angeles. The village is small and the people there are mostly rich white. His attitude towards the coronavirus has been changing, from ignoring, to pay attention, to "worry" and to relax.  As the lucky guy who succeeded in returning to China before the domestic policy changes and the outbreak of the United States, although his school life wasn’t a happy ending, he has gained a lot along the way.' data-like='<%= likeDC13%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us13</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>Travel back home and quarantine experience of a high school student in the US</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);"> 2/4/2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation: Student
                 </h5>
                 <div class="cardDynamic">
                     <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC13%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                    Yichen is a Chinese student studying in an American high school located in Westlake Village near Beverly Hills in Los Angeles. The village is small and the people there are mostly rich white. His attitude towards the coronavirus has been changing, from ignoring, to pay attention, to "worry" and to relax.  As the lucky guy who succeeded in returning to China before the domestic policy changes and the outbreak of the United States, although his school life wasn’t a happy ending, he has gained a lot along the way.
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/13">Learn More</a>
             </div>
-            <div class="card" data-title='Post 14 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC14%>'>
+            <div class="card" data-title='The Corona Virus will end; life has to move on Mrs. Gao 26 Zhiyu Xiong 4/20/2020 Aunt Gao is a beautician in Suzhou, which has no basic salary and take commission of beauty salon as her primary income. Although she is a normal person, her life is like a mirror which reflects the change of Chinese society and how a countryside person settled in the city. However, during the corona virus, urban immigrants like her had a hard time since the impact of epidemic on low risk-resistance enterprises and individuals might be fatal. This interview is taken in late March (2 months after epidemic broke out).' data-like='<%= likeDC14%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us14</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>The Corona Virus will end; life has to move on</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">4/20/2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation: beautician
                 </h5>
                 <div class="cardDynamic">
                     <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC14%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                    Aunt Gao is a beautician in Suzhou, which has no basic salary and take commission of beauty salon as her primary income. Although she is a normal person, her life is like a mirror which reflects the change of Chinese society and how a countryside person settled in the city. However, during the corona virus, urban immigrants like her had a hard time since the impact of epidemic on low risk-resistance enterprises and individuals might be fatal. This interview is taken in late March (2 months after epidemic broke out).
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/14">Learn More</a>
             </div>
-            <div class="card" data-title='Post 15 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC15%>'>
+            <div class="card" data-title='The Days of the Hotel Quarantine Jennifer Occupation Student Chuxin Liang 3/21/2020 My name is Jennifer. I am 15 years old. I was born and raised in Beijing, China, until I came to Singapore last year. In my eyes, Beijing is a lively and bustling place. It is very beautiful at night.' data-like='<%= likeDC15%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us15</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>The Days of the Hotel Quarantine</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">3/21/2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation: Student
                 </h5>
                 <div class="cardDynamic">
                     <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC15%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                    My name is Jennifer. I am 15 years old. I was born and raised in Beijing, China, until I came to Singapore last year. In my eyes, Beijing is a lively and bustling place. It is very beautiful at night.
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/15">Learn More</a>
             </div>
-            <div class="card" data-title='Post 16 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC16%>'>
+            <div class="card" data-title='The determination to finish the work is far greater than the fear of the corona virus. Mrs. Shi Nurse Selina 3/1/2020 She worked as a nurse for 19 years and was responsible for the quality control of medical records in the first Department of the inpatient department of the hospital. Her salary just reached the average level of local wages in Shaoyang, less than 3000 yuan. As medical staff, they can only take turns to have a rest on holidays. Without the epidemic, her daughter, who had already worked, would have gone home to have a happy new year for the family of three, and she would go out with friends to enjoy the beautiful scenery in the spring. The interview was conducted during the lunch break from 12:30 to 13:30 every day.' data-like='<%= likeDC16%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us16</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>The determination to finish the work is far greater than the fear of the corona virus.</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">3/1/2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation：Nurse
                 </h5>
                 <div class="cardDynamic">
                     <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC16%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                    She worked as a nurse for 19 years and was responsible for the quality control of medical records in the first Department of the inpatient department of the hospital. Her salary just reached the average level of local wages in Shaoyang, less than 3000 yuan. As medical staff, they can only take turns to have a rest on holidays. Without the epidemic, her daughter, who had already worked, would have gone home to have a happy new year for the family of three, and she would go out with friends to enjoy the beautiful scenery in the spring. The interview was conducted during the lunch break from 12:30 to 13:30 every day.
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/16">Learn More</a>
             </div>
-            <div class="card" data-title='Post 17 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC17%>'>
+            <div class="card" data-title='The Distance - If I’m No Longer Here Anymore Ziwei Zhang College Freshman Mei Ting 3/8/2020 Ziwei Zhang is a Freshman from Wuhan University of Technology. In his everyday life, he’s an optimistic boy who’s always longing for outdoor activities, in the meantime with a definite goal for his life. The following articles are all from his personal perspective, taking us on a tour, filling us in with the real experience of being a Wuhaner during the pandemic.' data-like='<%= likeDC17%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us17</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>The Distance - If I’m No Longer Here Anymore</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">3/8/2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation: College Freshman
                 </h5>
                 <div class="cardDynamic">
                     <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC17%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                    Ziwei Zhang is a Freshman from Wuhan University of Technology. In his everyday life, he’s an optimistic boy who’s always longing for outdoor activities, in the meantime with a definite goal for his life. The following articles are all from his personal perspective, taking us on a tour, filling us in with the real experience of being a Wuhaner during the pandemic.
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/17">Learn More</a>
             </div>
-            <div class="card" data-title='Post 18 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC18%>'>
+            <div class="card" data-title='The Epidemic Experience of a Family of Six Liang Hui Engineer Chuxin Liang 3/24/2020 Liang Hui is a Singaporean Chinese, a white-collar elite who works at the Fortune global 500.He came to Singapore 25 years ago and experienced the SARS outbreak 17 years ago. He was shocked by the speed of novel Coronavirus and thought it was more serious than SARS' data-like='<%= likeDC18%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us18</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>The Epidemic Experience of a Family of Six</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">3/24/2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation: Engineer
                 </h5>
                 <div class="cardDynamic">
                     <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC18%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                    Liang Hui is a Singaporean Chinese, a white-collar elite who works at the Fortune global 500.He came to Singapore 25 years ago and experienced the SARS outbreak 17 years ago. He was shocked by the speed of novel Coronavirus and thought it was more serious than SARS.
+
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/18">Learn More</a>
             </div>
-            <div class="card" data-title='Post 19 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC19%>'>
+            <div class="card" data-title='The Influence of Corona Virus on My Work Jiang Lin Dentist Angel Zihui Lin March 10, 2020 I am a dentist, as well as the director, professor, and doctoral supervisor working in the dental department of a public hospital. Unlike the majority of the people, being a medical professional I am, I have access to learn the pandemic of novel coronavirus via a professional channel.' data-like='<%= likeDC19%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us19</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>The Influence of Corona Virus on My Work</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">March 10, 2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation: Dentist
                 </h5>
                 <div class="cardDynamic">
                     <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC19%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                    I am a dentist, as well as the director, professor, and doctoral supervisor working in the dental department of a public hospital. Unlike the majority of the people, being a medical professional I am, I have access to learn the pandemic of novel coronavirus via a professional channel.
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/19">Learn More</a>
             </div>
-            <div class="card" data-title='Post 20 there should be some breif introduction about this story here something soemthing soemthing....' data-like='<%= likeDC20%>'>
+            <div class="card" data-title='The Perspective of a Merited Student Leader  Laura Tavares High School Student Joyce Jiayi Li  8/2/2020 Laura Tavares is a rising senior at Carlucci American International School of Lisbon (CAISL), and is one of the student council members as well as a resident of the city of Lisbon. Laura is a diligent and outgoing student who is friendly and helpful towards every student, and whom everyone acknowledges as a responsible leader.  But similar to many other students, Laura had a hard time adjusting to the sudden change in her life when her school closed its campus in March.' data-like='<%= likeDC20%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
-                    <h3>how does this change us20</h3>
-                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">By someone Oct. 12. 2020</h6>
+                    <h3>The Perspective of a Merited Student Leader</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);"> 8/2/2020</h6>
                 </div>
                 <h5 class="cardSubject">
-                    #COVID19
+                    Occupation: High School Student
                 </h5>
                 <div class="cardDynamic">
                     <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC20%></nobr>
                 </div>
                 <p class="cardContent">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                    Laura Tavares is a rising senior at Carlucci American International School of Lisbon (CAISL), and is one of the student council members as well as a resident of the city of Lisbon. Laura is a diligent and outgoing student who is friendly and helpful towards every student, and whom everyone acknowledges as a responsible leader.  But similar to many other students, Laura had a hard time adjusting to the sudden change in her life when her school closed its campus in March.
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/20">Learn More</a>
             </div>
+            <div class="card" data-title='Time of the Storm Mr. Z Zop Manager of an NGO organization Yian(Ann) Zhao 4/16/2020 Zop is a Thai who grew up in Chiangmai and lives in Chiangmai right now. There’s never worldwide epidemic disease experience in his whole life, so the breakout of coronavirus caused a big impact on his life both physically and mentally. He is a devoted Christian and works actively in the church as the translator during preach. His work is in a nonprofit organization as well, which largely involves physical contact between individuals. However, his life altered due to coronavirus.' data-like='<%= likeDC21%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>Time of the Storm</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">4/16/2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    Occupation: Manager of an NGO organization
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC21%></nobr>
+                </div>
+                <p class="cardContent">
+                    Zop is a Thai who grew up in Chiangmai and lives in Chiangmai right now. There’s never worldwide epidemic disease experience in his whole life, so the breakout of coronavirus caused a big impact on his life both physically and mentally. He is a devoted Christian and works actively in the church as the translator during preach. His work is in a nonprofit organization as well, which largely involves physical contact between individuals. However, his life altered due to coronavirus.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/21">Learn More</a>
+            </div>
+            <div class="card" data-title='We can only learn to adapt Zhu Liping Occupation Retired Wang Xiaoxin 4/7/2020 Zhu Liping was born in Jilin Province, in the northeast of China, but she has been living in Beijing for 50 years. As a retired mother, her life is focused around her husband and her 13-year-old daughter. During the COVID-19 outbreak, she deeply felt the inconvenience caused by life under quarantine. She has witnessed the challenges faced by her husband and daughter, while also trying to adapt to changes herself. For her, being far from the center of the epidemic does not prevent her from caring about the development of the epidemic. In the interview, Zhu illustrated her experience during the pandemic. She hoped to obtain more authentic news and called on the government to increase the transparency of latest information.' data-like='<%= likeDC22%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>We can only learn to adapt</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">4/7/20200</h6>
+                </div>
+                <h5 class="cardSubject">
+                    Occupation: Retired
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC22%></nobr>
+                </div>
+                <p class="cardContent">
+                    Zhu Liping was born in Jilin Province, in the northeast of China, but she has been living in Beijing for 50 years. As a retired mother, her life is focused around her husband and her 13-year-old daughter. During the COVID-19 outbreak, she deeply felt the inconvenience caused by life under quarantine. She has witnessed the challenges faced by her husband and daughter, while also trying to adapt to changes herself. For her, being far from the center of the epidemic does not prevent her from caring about the development of the epidemic. In the interview, Zhu illustrated her experience during the pandemic. She hoped to obtain more authentic news and called on the government to increase the transparency of latest information.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/22">Learn More</a>
+            </div>
         </div>
+    
         <script src="javascript/browsestoryjavascript.js" type="text/javascript"></script>
       </div>
       <footer id="footer">
@@ -450,22 +484,12 @@
       <div class="modal-body" style="padding-left: 20%; padding-right: 20%;">
         <div style="position: relative;">
             <i class="fas fa-envelope" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tina_sheng@palmdrive.cn</span>
         </div>
           <br>
         <div style="position: relative;">
-            <i class="fab fa-facebook-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
-        </div>
-          <br>
-        <div style="position: relative;">
-            <i class="fab fa-twitter-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
-        </div>
-          <br>
-        <div style="position: relative;">
-            <i class="fab fa-instagram-square" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 200px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">safasfasfsdf</span>
+            <i class="fab fa-weixin" style="color: rgb(88, 193, 187); font-size: 1.9em"></i>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tinasheng002</span>
         </div>
       </div>
       <div class="modal-footer">
