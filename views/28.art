@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <style>
+      
       body{
     font-family: "segoe ui emoji";
 }
@@ -29,6 +30,7 @@
 
 #CommentArea{
     width: 58%;
+    background-color: rgb(240, 238, 243);
     margin: auto;
     border-radius: 5px;
     border-color: darkgray;
@@ -111,7 +113,6 @@
                 <a class="nav-link" href="/browsestory">Browse Story <span class="sr-only">(current)</span></a>
               </li>
               
-              
               <li class="nav-item">
                 <a class="nav-link" href="#exampleModal" data-toggle="modal">Contact Us <span class="sr-only">(current)</span></a>
               </li>
@@ -120,31 +121,29 @@
         </nav>
         <div id="template">
             <div style="grid-area: cont">
-                <h3 style="text-align: center; padding-top: 20px;">A Normal Citizen Under Epidemic</h3>
+                <h3 style="text-align: center; padding-top: 20px;">Everyone has a Bright Side</h3>
                 <div id="intro" style="padding: 20px">
-                A doctor who stayed in Yichang, Hubei, for his winter vacation,  providing us with his own life experiences. Yichang and Wuhan are two cities in Hubei.
+                Ms Guo Ying is a senior reporter of Shanghai Youth Daily. Because of a successful internship experience, she embarked on a career as a journalist without any media studies. Under the epidemic, Ms Guo’s work is very busy. She is very busy, had interviewed medical workers, community volunteers, grassroots cadres and other people of all kinds, wrote countless reports, and gained a lot of touch from their stories.
                 </div>
                 <div id="contentArea">
-                    <p>
-                        I came back to my hometown in Yichang, Hubei, not long after the winter vacation began, when the epidemic didn’t catch much attention. As time went on, the epidemic got more and more serious. And after celebrating the NewYear‘s eve at home, Wuhan announced to seal off the city from all outside contact to stop the spread of the plague. Not long after that, Yichang was sealed off, too. 
-                    </p>
-                    <p>
-                    Life here is fine, actually. It doesn’t mean that my family and I couldn’t get enough food to eat. Life at home is quite normal, except here in my community, are strict rules for going out, even out to the shops to buy food. For every two days, one single person at a house is allowed to go out to buy food as a representative of the family. The shops outside of our community have strict rules too, it is allowed to have only two people in the shop at the same time. There are also delivery services to send food to the gate of our community. In this way, the chance of meeting other people is largely decreased. Luckily, even though taking a walk in the community is not allowed, we can still breathe fresh air in the little garden in our house.
-                    </p>
-                    <p>Without sitting at my desk at my workplace in Beijing, I can still work through dozens of online social medias, such as, the apps called Zoom and Dingding. As a result of the epidemic, many apps and database was free during this time in China. The works including managing and statistics can be done there. During the work hours, I get to know how difficult the works at hospitals in Wuhan is. Doctors and nurses from all over the country have come to Wuhan to help immediately, including my workmates. Not only those who specializes in areas that have to do with lungs, but any doctors or nurses with basic knowledge of taking care of patients have the qualification of coming to Wuhan for help. After reading the handbook of basic instructions of taking care of Covid-19 patients, they can easily get familiar with those stuffs. According to my workmates’ experience, they are facing many difficulties during their work hours. For example, with the protective clothing on, it gets difficult for them to deal with daily physiological needs. They tried to drink as little water as possible and wearing diapers in order to decrease the need of going to toilet. The physiological needs and psychological needs of patients are the two indispensable parts of the nurses’ jobs. Some of the patients have difficulty having meals or going to the toilet, and it is easy for patients to get depressed or lose hope. It is the nurses’ job to help patients with these problems. During the 10-12 work hours per day, they have done an incredible job in taking care of patients. Without them, we don’t stand a chance to beat the coronal virus. Sadly, many of the doctors and nurses get infected by the fast-spreading disease. I am deeply sorry for them.</p>
-                    <p>Everyone here is involved in this epidemic, no matter you are a doctor, a business man, or a student. People on the streets are all wearing masks, many cinemas and restaurants are unwillingly closed as a result of the policies for the epidemic, and the time for schools to open is delayed. Everyone has the duty to avoid meeting people, and therefore we are all contributing to the victory against the epidemic. I will never forget this big event in China’s history, and the people suffered from the disease.</p>
-                    <p style="font-style: italic">When China ended the lockdown of Yichang. The interviewee came back to Beijing, where he was preparing for his normal daily work.</p>
+                    <h5 style="text-align: center; font-weight: bold">I am a journalist</h5>
+                    <p>I like to read books, so I chose to major in books when I was older. Later, I also worked as an editor in a publishing house and engaged in writing-related work. This epidemic has a great impact on the work of our reporters. Since the beginning of the epidemic, every piece of news I wrote is related to the epidemic. The epidemic is a challenge and an opportunity for us, because a lot of good news, good people and things have emerged during the epidemic. This is something we rarely encounter when writing news. Everyone has bright spots on their bodies. In this epidemic, some ordinary people's bright spots broke out, which made us very moved.</p>
+                    <h5 style="text-align: center; font-weight: bold">We must be at the forefront</h5>
+                    <p>We journalist have a natural curiosity and a sense of responsibility to "prove historical events" and "tell everyone the truth." Under the epidemic, journalists rushed to the front line desperately. The thing that impressed me the most was to go to Minhang Children's Hospital to interview the young patient who was diagnosed. When we got there, a doctor stopped us. She said: "You can only go here, you can't go any further. The front is very dangerous. Everyone didn't flinch, which made me very "passionate." The doctor was just wearing a white coat and no protective clothing. For this reason, the reporters broke through the doctor’s human defense. The good news was also received during the interview. Children’s infections are mild, and infection with the new crown virus does not necessarily cause pneumonia. The small patients admitted are only respiratory infections. You can heal yourself with your immune system by ordering Chinese medicine. Wang Wenhong, an Internet celebrity doctor, is also full of personality charm.</p>
+                    <h5 style="text-align: center; font-weight: bold">The most beautiful volunteers and medical staff </h5>
+                    <p>During the epidemic, I wrote a lot of reports. There were volunteers and community workers. Everyone left a deep impression on me, and every story touched me because many people did things that I might not be able to do. of. Through this epidemic, my view on grassroots cadres has changed and I think they are amazing. For example, there is a white-collar worker in Lujiazui who works in a foreign bank. He said he had never thought that he would cut thread ends in his life, and he could cut thousands of pieces a day. Even if these young people cannot rush to the front line, they still want to do what they can and contribute to the society; a father who has been driving public transportation for 16 years took the initiative to ask, and together with his son became the Pudong Airport guard against the epidemic. ". One is responsible for measuring the body temperature of the entry personnel, and the other is responsible for sending the entry personnel to the isolation point or home for isolation. Their work places are only 300 meters apart, but due to isolation, they have not seen each other for half a month; a 26-year-old young man from Shanghai. There were originally 4 people guarding the lights of the Second Bridge of the River. During the Spring Festival, three colleagues went home for the New Year, and he stayed on duty. Therefore, he is the only one who sticks to the light every day, responsible for regulation and maintenance. Because he can't ride on the bridge, every time, in order to repair the malfunctioning lights, he has to run back and forth four times on the two-kilometer bridge. In the past, he has become a "runner"; a touching male nurse, from Shandong, works in Dahua Hospital. After learning about the lack of male nurses in Wuhan, he immediately signed up. His father was an auxiliary police officer in his hometown, fighting on the front line of local epidemic prevention. Due to fatigue, he suddenly suffered a cerebral hemorrhage and fell to the post. During the rescue, he urged his wife not to tell his son in Shanghai that he would get infected because he was anxious. The son went to Wuhan without telling his father, and the father was sent to the rescue room without telling his son. The son didn't learn about it until his father's condition improved. The first batch of rushed medical staff have returned triumphantly. In the near future, they will fulfill their mission and return with honor. This epidemic has tempered the younger generation. Facts have proved that they are trustworthy. This is where I am most delighted after writing so many epidemic reports.</p>
+                    <p style="font-style: italic">Today, the epidemic in China is relatively stable. But Ms Guo is still busy with her work, and at the same time paying attention to the epidemic abroad. It is with many reporters like Teacher Guo that we can get information about the epidemic in the first place and pay tribute to the hard-working reporters!</p>
                 </div>
             </div>
             <div style="grid-area: side; margin-top: 40px">
                 <p style="font-size: 1.3em"><strong>Interviewed By</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Yoseph Yang</p>
+                <p style="font-style: italic; font-size: 1.3em">Journalist</p>
                 <p style="font-size: 1.3em"><strong>Interviewee</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Anonymous</p>
+                <p style="font-style: italic; font-size: 1.3em"> Guo Ying</p>
                 <p style="font-size: 1.3em"><strong>Interview Date</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">03/07/2020</p>
+                <p style="font-style: italic; font-size: 1.3em">3/18/2020</p>
                 <p style="font-size: 1.3em"><strong>Occupation</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Doctor</p>
+                <p style="font-style: italic; font-size: 1.3em">Journalist</p>
             </div>
         </div>
         <hr>
@@ -204,27 +203,27 @@ function pressLike(){
             sign.style.transform = "translateY(0px)";
         }, 400);
         if (typeof(Storage) !== "undefined") {
-            localStorage.setItem("like2", "true");
+            localStorage.setItem("like28", "true");
         }
         const Http = new XMLHttpRequest();
-        const url = "/document/2?val=1&d=1";
+        const url = "/document/28?val=1&d=1";
         Http.open("GET", url);
         Http.send();
         document.getElementById("likeNum").innerText = parseInt(document.getElementById("likeNum").innerText) + 1 + "";
     }else{
         like.className = "btn btn-outline-primary";
         if (typeof(Storage) !== "undefined") {
-            localStorage.setItem("like2", "false");
+            localStorage.setItem("like28", "false");
         }
         const Http = new XMLHttpRequest();
-        const url = "/document/2?val=-1&d=1";
+        const url = "/document/28?val=-1&d=1";
         Http.open("GET", url);
         Http.send();
         document.getElementById("likeNum").innerText = parseInt(document.getElementById("likeNum").innerText) - 1 + "";
     }
 }
 function load(){
-    if(localStorage.getItem("like2") == "true"){
+    if(localStorage.getItem("like28") == "true"){
         like.className = "btn btn-primary";
     }
 }
@@ -241,12 +240,12 @@ function load(){
       <div class="modal-body" style="padding-left: 20%; padding-right: 20%;">
         <div style="position: relative;">
             <i class="fas fa-envelope" style="color: rgb(88, 193, 187); font-size: 2em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tina_sheng@palmdrive.cn</span>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 280px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tina_sheng@palmdrive.cn</span>
         </div>
           <br>
         <div style="position: relative;">
             <i class="fab fa-weixin" style="color: rgb(88, 193, 187); font-size: 1.9em"></i>
-            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 250px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tinasheng002</span>
+            <span style="margin-left: 20px; padding-left: 10px; background-color: rgb(240, 238, 243); display: inline-block; width: 280px; border-radius: 2em; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); color: rgb(194, 192, 197); font-size: 1.2em;">tinasheng002</span>
         </div>
       </div>
       <div class="modal-footer">

@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <style>
+      
       body{
     font-family: "segoe ui emoji";
 }
@@ -29,6 +30,7 @@
 
 #CommentArea{
     width: 58%;
+    background-color: rgb(240, 238, 243);
     margin: auto;
     border-radius: 5px;
     border-color: darkgray;
@@ -120,31 +122,31 @@
         </nav>
         <div id="template">
             <div style="grid-area: cont">
-                <h3 style="text-align: center; padding-top: 20px;">A Normal Citizen Under Epidemic</h3>
+                <h3 style="text-align: center; padding-top: 20px;">Time of the Storm</h3>
                 <div id="intro" style="padding: 20px">
-                A doctor who stayed in Yichang, Hubei, for his winter vacation,  providing us with his own life experiences. Yichang and Wuhan are two cities in Hubei.
+                In 2020, the sudden outbreak of Coronavirus has a profound impact on the politics and economy of various countries. The continuous outbreaks in countries have brought great destructive power to human society and has a great impact on firefighting work. In this view, the author interviewed the head of a fire department to understand the impact of the epidemic situation on firefighting work, team management, as well as the positive actions taken by the companies to ensure the successful practice of firefighting work and firefighters’ safety and stability.
                 </div>
                 <div id="contentArea">
-                    <p>
-                        I came back to my hometown in Yichang, Hubei, not long after the winter vacation began, when the epidemic didn’t catch much attention. As time went on, the epidemic got more and more serious. And after celebrating the NewYear‘s eve at home, Wuhan announced to seal off the city from all outside contact to stop the spread of the plague. Not long after that, Yichang was sealed off, too. 
-                    </p>
-                    <p>
-                    Life here is fine, actually. It doesn’t mean that my family and I couldn’t get enough food to eat. Life at home is quite normal, except here in my community, are strict rules for going out, even out to the shops to buy food. For every two days, one single person at a house is allowed to go out to buy food as a representative of the family. The shops outside of our community have strict rules too, it is allowed to have only two people in the shop at the same time. There are also delivery services to send food to the gate of our community. In this way, the chance of meeting other people is largely decreased. Luckily, even though taking a walk in the community is not allowed, we can still breathe fresh air in the little garden in our house.
-                    </p>
-                    <p>Without sitting at my desk at my workplace in Beijing, I can still work through dozens of online social medias, such as, the apps called Zoom and Dingding. As a result of the epidemic, many apps and database was free during this time in China. The works including managing and statistics can be done there. During the work hours, I get to know how difficult the works at hospitals in Wuhan is. Doctors and nurses from all over the country have come to Wuhan to help immediately, including my workmates. Not only those who specializes in areas that have to do with lungs, but any doctors or nurses with basic knowledge of taking care of patients have the qualification of coming to Wuhan for help. After reading the handbook of basic instructions of taking care of Covid-19 patients, they can easily get familiar with those stuffs. According to my workmates’ experience, they are facing many difficulties during their work hours. For example, with the protective clothing on, it gets difficult for them to deal with daily physiological needs. They tried to drink as little water as possible and wearing diapers in order to decrease the need of going to toilet. The physiological needs and psychological needs of patients are the two indispensable parts of the nurses’ jobs. Some of the patients have difficulty having meals or going to the toilet, and it is easy for patients to get depressed or lose hope. It is the nurses’ job to help patients with these problems. During the 10-12 work hours per day, they have done an incredible job in taking care of patients. Without them, we don’t stand a chance to beat the coronal virus. Sadly, many of the doctors and nurses get infected by the fast-spreading disease. I am deeply sorry for them.</p>
-                    <p>Everyone here is involved in this epidemic, no matter you are a doctor, a business man, or a student. People on the streets are all wearing masks, many cinemas and restaurants are unwillingly closed as a result of the policies for the epidemic, and the time for schools to open is delayed. Everyone has the duty to avoid meeting people, and therefore we are all contributing to the victory against the epidemic. I will never forget this big event in China’s history, and the people suffered from the disease.</p>
-                    <p style="font-style: italic">When China ended the lockdown of Yichang. The interviewee came back to Beijing, where he was preparing for his normal daily work.</p>
+                    <h5 style="text-align: center; font-weight: bold">The Impact of the Covid-19</h5>
+                    <p>The epidemic has had multiple effects on my work and life.</p>
+                    <p>Firstly, in the aspect of working, the exact task of the firefighters changed a lot. Due to the pandemic, the pace of social production and life slowed down slowed down a lot. Many enterprises stopped production, and the number of simple fire rescue tasks decreased. However, due to the need of prevention and control of the epidemic situation, companies and families increased the risk of fire crisis by frequently improper storage and use of disinfectants. Such rescue missions even raised a lot.</p>
+                    <p>Secondly, the firefighting department pay more attention on the individual protection and disinfection for equipment during the daily work. Now, the fire truck equipped with masks and disinfectants. To avoid the infection, all firefighters should wear masks during the whole process of the work. When they come back to the department, they also needed to meet the strict standard on self-disinfection and equipment disinfection.</p>
+                    <p>Third, the regular management of firefighting teams is affected by the epidemic. As a closed management department, fire brigade is affected by epidemic situation and needed to pay more attention to prevention in daily management. First of all, the fire brigade has carried on the strict camp management, including strictly forbids the outside unit personnel to enter, the unit staff must measure the body temperature before entering. Secondly, the fire brigade stops personnel going out and taking leave. Third, the fire brigade reduced the gathering of personnel. Do not hold large-scale personnel meetings, daily training to increase staff spacing, do not carry out more personnel to participate in the training of collective projects. Take time to eat in the canteen, reduce the density of dining staff. Finally, the fire brigade strengthened the daily disinfection of the camp and disinfected the camp twice a day.</p>
+                    <p>Third, the regular management of firefighting teams is affected by the epidemic. As a closed management department, fire brigade is affected by epidemic situation and needed to pay more attention to prevention in daily management. First of all, the fire brigade has carried on the strict camp management, including strictly forbids the outside unit personnel to enter, the unit staff must measure the body temperature before entering. Secondly, the fire brigade stops personnel going out and taking leave. Third, the fire brigade reduced the gathering of personnel. Do not hold large-scale personnel meetings, daily training to increase staff spacing, do not carry out more personnel to participate in the training of collective projects. Take time to eat in the canteen, reduce the density of dining staff. Finally, the fire brigade strengthened the daily disinfection of the camp and disinfected the camp twice a day.</p>
+                    <h5 style="text-align: center; font-weight: bold">Touched Heart</h5>
+                    <p>There are so much touching stories happened during the pandemic. I knew some of them online, and some other happened just around me. The stories of the people I am familiar with shocked me the most – A doctor colleague’s father passed away in other province. He chose not to leave since he worried a lot to add more pressure and depression for the colleagues and organization. The worry and love toward his dad was hidden deep in heart and converted to the motivation to work even harder to prevent more death. </p>
+                    <p style="font-style: italic">When being asked what’s his strongest wish after the pandemic, he said: “ I wish I could run without wearing mask.”</p>
                 </div>
             </div>
             <div style="grid-area: side; margin-top: 40px">
                 <p style="font-size: 1.3em"><strong>Interviewed By</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Yoseph Yang</p>
+                <p style="font-style: italic; font-size: 1.3em">Chang Liu</p>
                 <p style="font-size: 1.3em"><strong>Interviewee</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Anonymous</p>
+                <p style="font-style: italic; font-size: 1.3em">Mr. Wang</p>
                 <p style="font-size: 1.3em"><strong>Interview Date</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">03/07/2020</p>
+                <p style="font-style: italic; font-size: 1.3em">3/1/2020</p>
                 <p style="font-size: 1.3em"><strong>Occupation</strong></p>
-                <p style="font-style: italic; font-size: 1.3em">Doctor</p>
+                <p style="font-style: italic; font-size: 1.3em">Firefighter department’s Director</p>
             </div>
         </div>
         <hr>
@@ -204,27 +206,27 @@ function pressLike(){
             sign.style.transform = "translateY(0px)";
         }, 400);
         if (typeof(Storage) !== "undefined") {
-            localStorage.setItem("like2", "true");
+            localStorage.setItem("like25", "true");
         }
         const Http = new XMLHttpRequest();
-        const url = "/document/2?val=1&d=1";
+        const url = "/document/25?val=1&d=1";
         Http.open("GET", url);
         Http.send();
         document.getElementById("likeNum").innerText = parseInt(document.getElementById("likeNum").innerText) + 1 + "";
     }else{
         like.className = "btn btn-outline-primary";
         if (typeof(Storage) !== "undefined") {
-            localStorage.setItem("like2", "false");
+            localStorage.setItem("like25", "false");
         }
         const Http = new XMLHttpRequest();
-        const url = "/document/2?val=-1&d=1";
+        const url = "/document/25?val=-1&d=1";
         Http.open("GET", url);
         Http.send();
         document.getElementById("likeNum").innerText = parseInt(document.getElementById("likeNum").innerText) - 1 + "";
     }
 }
 function load(){
-    if(localStorage.getItem("like2") == "true"){
+    if(localStorage.getItem("like25") == "true"){
         like.className = "btn btn-primary";
     }
 }

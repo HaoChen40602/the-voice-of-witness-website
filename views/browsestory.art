@@ -15,7 +15,7 @@
     <meta name="robot" content="archive, index, follow, imageindex" />
     <meta name="keywords" content="Voice, of, witness, corona, virus, outbreak, china, project, story, stories" />
   </head>
-  <body style="background-color: rgb(240, 238, 243)">
+  <body style="background-color: rgb(240, 238, 243)" onload="load()">
     <!-- Optional JavaScipt -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -40,9 +40,6 @@
                 <a class="nav-link" href="browsestory">Browse Story <span class="sr-only">(current)</span></a>
               </li>
               
-              <li class="nav-item">
-                <a class="nav-link" href="/share.html">Share Your Story <span class="sr-only">(current)</span></a>
-              </li>
               
               <li class="nav-item">
                 <a class="nav-link" href="#exampleModal" data-toggle="modal">Contact Us <span class="sr-only">(current)</span></a>
@@ -61,7 +58,7 @@
         </nav>
     <div id="toolBarLeft">
             <div class="md-form mt-0" style="text-align: center">
-                <input class="form-control" type="text" placeholder="Search" aria-label="Search" id="searchBar">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search" id="searchBar" style="background-color: rgb(240, 238, 243)">
                 <i class="fas fa-search" id="searchButton" href="#" onclick="searchTag()"></i>
             </div>
             <br>
@@ -69,7 +66,7 @@
       <div id="page" style="background-color: white; width: 900px; margin-left: auto; margin-right: auto; margin-top: 0px; padding-top: 20px; position: relative; left: 100px;">
         <div id='postContainer'>
             <h1 style="display: none" id="no-result">Sorry No result Was Found</h1>
-            <div class="card" data-title='A Non-respiratory Doctor's Experience of Epidemic Disease Stone is a doctor in a hospital in Hebei province. He has been working for more than 20 years and is now the deputy chief physician. He remained calm in the face of the epidemic. Stone Pseudonym 49 Doctor 3/9/2020' data-like='<%= likeDC1%>'>
+            <div class="card" data-title='A Non-respiratory Doctors Experience of Epidemic Disease Stone is a doctor in a hospital in Hebei province. He has been working for more than 20 years and is now the deputy chief physician. He remained calm in the face of the epidemic. Stone Pseudonym 49 Doctor 3/9/2020' data-like='<%= likeDC1%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
                     <h3>A Non-respiratory Doctor's Experience of Epidemic Disease</h3>
@@ -463,6 +460,150 @@ The interviewee is a dentist at a public hospital in Beijing, China. He tells wh
                     Zhu Liping was born in Jilin Province, in the northeast of China, but she has been living in Beijing for 50 years. As a retired mother, her life is focused around her husband and her 13-year-old daughter. During the COVID-19 outbreak, she deeply felt the inconvenience caused by life under quarantine. She has witnessed the challenges faced by her husband and daughter, while also trying to adapt to changes herself. For her, being far from the center of the epidemic does not prevent her from caring about the development of the epidemic. In the interview, Zhu illustrated her experience during the pandemic. She hoped to obtain more authentic news and called on the government to increase the transparency of latest information.
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/22">Learn More</a>
+            </div>
+            <div class="card" data-title='A Stranger Trapped in Wuhan  Mr. Guo Occupation Manager Hao Chen 08/03/2020 Mr. Guo grew up in a city called Yushu in northern China. He worked in Shenzhen after he graduated from Dalian. Her wife is from Wuhan. Her parents live in Wuhan. When the epidemic broke out, Mr. Guo had just finished his work and was about to return to Wuhan for Spring Festival with his wife’s family. They heard some news about the virus when they depart, but they insisted to return. On the night of Jan.21st , his family arrived in Wuhan. Wuhan announced to lockdown at Jan.23rd. This interview recorded Mr. Guo’s experience and thoughts when he was in Wuhan.' data-like='<%= likeDC23%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>A Stranger Trapped in Wuhan</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">08/03/2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    Occupation: Manager
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC23%></nobr>
+                </div>
+                <p class="cardContent">
+                    Mr. Guo grew up in a city called Yushu in northern China. He worked in Shenzhen after he graduated from Dalian. Her wife is from Wuhan. Her parents live in Wuhan. When the epidemic broke out, Mr. Guo had just finished his work and was about to return to Wuhan for Spring Festival with his wife’s family. They heard some news about the virus when they depart, but they insisted to return. On the night of Jan.21st , his family arrived in Wuhan. Wuhan announced to lockdown at Jan.23rd. This interview recorded Mr. Guo’s experience and thoughts when he was in Wuhan.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/23">Learn More</a>
+            </div>
+            <div class="card" data-title='Fraud in an epidemic, reflection, pride and pain — The story of an ordinary yet socially responsible college student during the epidemic Jin College Student  Sunchen Yuanyuan  3/7/2020 Jin is a college student who loves history, current affairs and travel.  He had participated in various volunteer activities as a participant before. In this epidemic, he, like many young people, initiated a donation to the public with a passion, trying to buy urgently needed items in the epidemic area. Materials to solve the urgent needs of the epidemic area. Public work and fund-raising were unexpectedly successful, but deceive businessmen did not let go of the opportunity to make a fortune even under this situation.  ' data-like='<%= likeDC24%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>Fraud in an epidemic, reflection, pride and pain — The story of an ordinary yet socially responsible college student during the epidemic</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">3/7/2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    Occupation: College Student
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC24%></nobr>
+                </div>
+                <p class="cardContent">
+                    Jin is a college student who loves history, current affairs and travel.  He had participated in various volunteer activities as a participant before. In this epidemic, he, like many young people, initiated a donation to the public with a passion, trying to buy urgently needed items in the epidemic area. Materials to solve the urgent needs of the epidemic area. Public work and fund-raising were unexpectedly successful, but deceive businessmen did not let go of the opportunity to make a fortune even under this situation.  
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/24">Learn More</a>
+            </div>
+            <div class="card" data-title='Impact of the Coronavirus Epidemic on Firefighting Work in 2020 Mr Wang Profession Firefighter department’s Director Chang Liu 3/1/2020 In 2020, the sudden outbreak of Coronavirus has a profound impact on the politics and economy of various countries. The continuous outbreaks in countries have brought great destructive power to human society and has a great impact on firefighting work. In this view, the author interviewed the head of a fire department to understand the impact of the epidemic situation on firefighting work, team management, as well as the positive actions taken by the companies to ensure the successful practice of firefighting work and firefighters’ safety and stability.' data-like='<%= likeDC25%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>Impact of the Coronavirus Epidemic on Firefighting Work in 2020</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">3/1/2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    Occupation: Firefighter department’s Director
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC25%></nobr>
+                </div>
+                <p class="cardContent">
+                   In 2020, the sudden outbreak of Coronavirus has a profound impact on the politics and economy of various countries. The continuous outbreaks in countries have brought great destructive power to human society and has a great impact on firefighting work. In this view, the author interviewed the head of a fire department to understand the impact of the epidemic situation on firefighting work, team management, as well as the positive actions taken by the companies to ensure the successful practice of firefighting work and firefighters’ safety and stability.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/25">Learn More</a>
+            </div>
+            <div class="card" data-title='Under the epidemic, The Overseas Chinese in Turkey are on the move Maris Vice President of China Peaceful Reunification Promotion Association in Turkey Meng Xiang 3/22/2020 As a person who has participated in the domestic voluntary fund-raising, I deeply feel that due to the shortage of domestic medical supplies, the help from overseas Chinese is very helpful to our fundraising process. I am very much looking forward to hearing the voices of people who are overseas but still have their hearts in their country, and to seeing how what they see during the epidemic differs from what we see. I chose to interview Mr. Malis, vice President of The Turkish-china Association for the Promotion of Peaceful Reunification in Turkey. Lets listen and explore what he sees from a different perspective, the same and different.' data-like='<%= likeDC26%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>Under the epidemic, The Overseas Chinese in Turkey are on the move</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">3/22/2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    Occupation: Vice President of China Peaceful Reunification Promotion Association in Turkey
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC26%></nobr>
+                </div>
+                <p class="cardContent" style="padding-top: 20px">
+                    As a person who has participated in the domestic voluntary fund-raising, I deeply feel that due to the shortage of domestic medical supplies, the help from overseas Chinese is very helpful to our fundraising process. I'm very much looking forward to hearing the voices of people who are overseas but still have their hearts in their country, and to seeing how what they see during the epidemic differs from what we see. I chose to interview Mr. Malis, vice President of The Turkish-china Association for the Promotion of Peaceful Reunification in Turkey. Lets listen and explore what he sees from a different perspective, the same and different.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/26">Learn More</a>
+            </div>
+            <div class="card" data-title='The Fear of the Coronavirus Originates from Our Lack of Knowledge Dawn Occupation Dentist Daniel Tian 03/2020 She graduated from Huaxi Dental, and then went to work at a top-tier hospital. She has over twenty years of expertise in the field of hospital management currently. When the interview was taking place, it was the final stages of the virus.' data-like='<%= likeDC27%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>The Fear of the Coronavirus Originates from Our Lack of Knowledge</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">03/2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    Occupation: Dentist
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC27%></nobr>
+                </div>
+                <p class="cardContent">
+                    She graduated from Huaxi Dental, and then went to work at a top-tier hospital. She has over twenty years of expertise in the field of hospital management currently. When the interview was taking place, it was the final stages of the virus.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/27">Learn More</a>
+            </div>
+            <div class="card" data-title='Everyone has a Bright Side Guo Ying Occupation Journalist Weizhe Mao 3/18/2020 Ms Guo Ying is a senior reporter of Shanghai Youth Daily. Because of a successful internship experience, she embarked on a career as a journalist without any media studies. Under the epidemic, Ms Guo’s work is very busy. She is very busy, had interviewed medical workers, community volunteers, grassroots cadres and other people of all kinds, wrote countless reports, and gained a lot of touch from their stories.' data-like='<%= likeDC28%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>Everyone has a Bright Side</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">3/18/2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    Occupation: Journalist
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC28%></nobr>
+                </div>
+                <p class="cardContent">
+                    Ms Guo Ying is a senior reporter of Shanghai Youth Daily. Because of a successful internship experience, she embarked on a career as a journalist without any media studies. Under the epidemic, Ms Guo’s work is very busy. She is very busy, had interviewed medical workers, community volunteers, grassroots cadres and other people of all kinds, wrote countless reports, and gained a lot of touch from their stories.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/28">Learn More</a>
+            </div>
+            <div class="card" data-title='A Chinese Canadian talked about the COVID-19 outbreak in both countries Lily Yu Occupation IT worker Joy Fu 3/8/2020 I have been in Canada for eighteen years, which is quite a long time. I love it here. There are many lakes in Canada, so every summer my family will choose a lake to go camping, barbecue, boating, or swimming, to really get in touch with nature and relax. The lakes in Canada are my familys favorite place to visit. ' data-like='<%= likeDC29%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>A Chinese Canadian talked about the COVID-19 outbreak in both countries</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);">3/8/2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    Occupation: IT worker
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC29%></nobr>
+                </div>
+                <p class="cardContent">
+                    I have been in Canada for eighteen years, which is quite a long time. I love it here. There are many lakes in Canada, so every summer my family will choose a lake to go camping, barbecue, boating, or swimming, to really get in touch with nature and relax. The lakes in Canada are my family's favorite place to visit. 
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/29">Learn More</a>
+            </div>
+            <div class="card" data-title='Experience of a Medical Staff in Wuhan Anonymous Profession ICU nurse Khaleesi Chen  4/15/2020 The interviewee is an old friend of my mom. She is also a nurse who went to support Wuhan during the early epidemic. Before this, she also joined the support of Xiamen BRT explosion.' data-like='<%= likeDC30%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3>Experience of a Medical Staff in Wuhan</h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);"> 4/15/2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    Occupation: ICU nurse
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC30%></nobr>
+                </div>
+                <p class="cardContent">
+                    The interviewee is an old friend of my mom. She is also a nurse who went to support Wuhan during the early epidemic. Before this, she also joined the support of Xiamen BRT explosion.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/30">Learn More</a>
             </div>
         </div>
     

@@ -106,7 +106,15 @@ app.get("/browsestory", async function(req, res){
             likeDC19: result[18].val,
             likeDC20: result[19].val,
             likeDC21: result[20].val,
-            likeDC22: result[21].val
+            likeDC22: result[21].val,
+            likeDC23: result[22].val,
+            likeDC24: result[23].val,
+            likeDC25: result[24].val,
+            likeDC26: result[25].val,
+            likeDC27: result[26].val,
+            likeDC28: result[27].val,
+            likeDC29: result[28].val,
+            likeDC30: result[29].val
         });
     });
 });

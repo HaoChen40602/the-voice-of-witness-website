@@ -1,6 +1,13 @@
 function load(){
-    if(localStorage.getItem("like1") == "true"){
-        like.className = "btn btn-primary";
+    document.getElementById("sorting").selectedIndex = 2;
+    let posts = document.querySelectorAll('.card');
+    let container = document.getElementById('postContainer');
+    let postArray = Array.prototype.slice.call(posts, 0);
+    shuffle(postArray);
+    console.log(postArray);
+    container.innerHTML = '';
+    for(let i = 0; i < postArray.length; i++){
+        container.appendChild(postArray[i]);
     }
 }
 

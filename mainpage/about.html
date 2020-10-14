@@ -49,9 +49,6 @@
                 <a class="nav-link" href="browsestory">Browse Story <span class="sr-only">(current)</span></a>
               </li>
               
-              <li class="nav-item">
-                <a class="nav-link" href="share.html">Share Your Story <span class="sr-only">(current)</span></a>
-              </li>
               
               <li class="nav-item">
                 <a class="nav-link" href="#exampleModal" data-toggle="modal">Contact Us <span class="sr-only">(current)</span></a>
@@ -67,14 +64,15 @@
     padding: 10px;
     margin-top: 20px;
     position: fixed;">
-            <button id="PB" type="button" class="btn btn-lg" style="background-color: rgb(96, 196, 188)" onclick="switchToPurpose()">Purpose</button><br>
-            <button id="TB" type="button" class="btn btn-lg" style="margin-top: 15px" onclick="switchToTeam()">The Team</button>
+            <button id="PB" type="button" class="btn btn-lg" style="background-color: rgb(96, 196, 188)" onclick="switchToPurpose()">The Project</button><br>
+            <button id="TB" type="button" class="btn btn-lg" style="margin-top: 15px" onclick="switchToTeam()">The Team</button><br>
+            <button id="SB" type="button" class="btn btn-lg" style="margin-top: 15px" onclick="switchToShare()">Share story</button>
         </div>
     <div id="page" style="background-color: white; width: 930px; margin-left: auto; margin-right: auto; margin-top: 0px; padding-top: 20px">
         <div id="purpose">
-        <h1 style="text-align: center; color: rgb(197, 211, 210)">Purpose</h1>
+        <h1 style="text-align: center; color: rgb(197, 211, 210)">The Project</h1>
         <p>
-The COVID-19 in China Project is an oral history project organized and completed by a group of high school students of Chinese heritage from China, the United States and Europe. Inspired by the Voice of Witness project in San Francisco, we conducted interviews with a wide range of witnesses who shared the same memories about how the outbreak of COVID-19 has affected the lives of Chinese people’s lives, and collected their stories.
+The COVID-19 in China Project is an oral history project organized and completed by a group of high school and college students of Chinese heritage from China, South East Asia, the United States and Europe. Inspired by the Voice of Witness project in San Francisco, we conducted interviews with a wide range of witnesses who shared the same memories about how the outbreak of COVID-19 has affected the lives of Chinese people’s lives, and collected their stories.
         </p>
         <p>
 This project started in March 2020 and attracted over 100 student participants. A total number of 55 interviews were completed and 34 complete stories were submitted. More than 20 volunteers have helped translate those stories from Chinese to English and built the website to publish those stories online. This is our record of what happened during the pandemic in China and how the common people reacted to it.
@@ -128,6 +126,10 @@ Yuxuan Tian from Rutgers Preparatory School
         <p>Special thanks to Tina Sheng, Shiyuan Gao and Cameron Hu from PalmDrive for your guidance and support.</p>
         <p>This project is inspired by the work of Voice of Witness from San Francisco, CA. Thank you for your curriculum and resources.</p>
         </div>
+        <div id="share" style="display: none">
+            <h1 style="text-align: center; color: rgb(197, 211, 210)">Share Your Story</h1>
+            <p>If you are from China or live in China, we invite you to share stories of people around you during the COVID-19 outbreak. Our hope is to keep this project going as the pandemic lasts across the world. Thank you for your interest!<br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+        </div>
       </div>
       <footer id="footer" style="background-color: rgb(96, 196, 188); margin: auto;">
           <div class="footer-copyright text-center py-3">© 2020 PalmDrive. All Rights Reserved
@@ -163,14 +165,26 @@ Yuxuan Tian from Rutgers Preparatory School
       function switchToPurpose(){
           document.getElementById("PB").style.backgroundColor = "rgb(96, 196, 188)";
           document.getElementById("TB").style.backgroundColor = "rgb(240, 238, 243)";
+          document.getElementById("SB").style.backgroundColor = "rgb(240, 238, 243)";
           document.getElementById("purpose").style.display = "block";
           document.getElementById("team").style.display = "none";
+          document.getElementById("share").style.display = "none";
       }
       function switchToTeam(){
           document.getElementById("PB").style.backgroundColor = "rgb(240, 238, 243)";
           document.getElementById("TB").style.backgroundColor = "rgb(96, 196, 188)";
+          document.getElementById("SB").style.backgroundColor = "rgb(240, 238, 243)";
           document.getElementById("purpose").style.display = "none";
           document.getElementById("team").style.display = "block";
+          document.getElementById("share").style.display = "none";
+      }
+          function switchToShare(){
+          document.getElementById("PB").style.backgroundColor = "rgb(240, 238, 243)";
+          document.getElementById("TB").style.backgroundColor = "rgb(240, 238, 243)";
+          document.getElementById("SB").style.backgroundColor = "rgb(96, 196, 188)";
+          document.getElementById("purpose").style.display = "none";
+          document.getElementById("team").style.display = "none";
+          document.getElementById("share").style.display = "block";
       }
       </script>
   </body>

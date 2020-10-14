@@ -114,9 +114,6 @@
                 <a class="nav-link" href="/browsestory">Browse Story <span class="sr-only">(current)</span></a>
               </li>
               
-              <li class="nav-item">
-                <a class="nav-link" href="/share.html">Share Your Story <span class="sr-only">(current)</span></a>
-              </li>
               
               <li class="nav-item">
                 <a class="nav-link" href="#exampleModal" data-toggle="modal">Contact Us <span class="sr-only">(current)</span></a>
@@ -141,11 +138,11 @@
                 
             </div>
             <div style="grid-area: side; margin-top: 40px">
-                <p style="font-size: 1.3em"><strong>Interviewed by</strong></p>
+                <p style="font-size: 1.3em"><strong>Interviewed By</strong></p>
                 <p style="font-style: italic; font-size: 1.3em">Joyce Li</p>
-                <p style="font-size: 1.3em"><strong>interviewee</strong></p>
+                <p style="font-size: 1.3em"><strong>Interviewee</strong></p>
                 <p style="font-style: italic; font-size: 1.3em">Xiaoying (Vivian) Guo</p>
-                <p style="font-size: 1.3em"><strong>interview date</strong></p>
+                <p style="font-size: 1.3em"><strong>Interview Date</strong></p>
                 <p style="font-style: italic; font-size: 1.3em">6/25/2020</p>
                 <p style="font-size: 1.3em"><strong>Occupation</strong></p>
                 <p style="font-style: italic; font-size: 1.3em">Freelancer/Airbnb host</p>
