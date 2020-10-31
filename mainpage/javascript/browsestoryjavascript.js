@@ -5,7 +5,7 @@ function load(){
     let postArray = Array.prototype.slice.call(posts, 0);
     shuffle(postArray);
     console.log(postArray);
-    container.innerHTML = '';
+    container.innerHTML = '<h1 style="display: none" id="noResult">Sorry No result Was Found</h1>';
     for(let i = 0; i < postArray.length; i++){
         container.appendChild(postArray[i]);
     }
@@ -73,7 +73,7 @@ function searchTag(){
     const tterm = searchBar.value.toLowerCase().split(' ');
     let posts = document.querySelectorAll('.card');
     let num = 0;
-    document.getElementById("no-result").style.display = "none";
+    document.getElementById("noResult").style.display = "none";
     for(let i = 0; i < posts.length; i++){
         const title = posts[i].getAttribute('data-title');
         let current = true;
@@ -90,6 +90,6 @@ function searchTag(){
         }
     }
     if(num == 0){
-        document.getElementById("no-result").style.display = "inline-block";
+        document.getElementById("noResult").style.display = "inline-block";
     }
 }

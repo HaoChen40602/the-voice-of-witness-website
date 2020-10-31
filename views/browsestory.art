@@ -65,7 +65,7 @@
         </div>
       <div id="page" style="background-color: white; width: 900px; margin-left: auto; margin-right: auto; margin-top: 0px; padding-top: 20px; position: relative; left: 100px;">
         <div id='postContainer'>
-            <h1 style="display: none" id="no-result">Sorry No result Was Found</h1>
+            <h1 style="display: none" id="noResult">Sorry No result Was Found</h1>
             <div class="card" data-title='A Non-respiratory Doctors Experience of Epidemic Disease Stone is a doctor in a hospital in Hebei province. He has been working for more than 20 years and is now the deputy chief physician. He remained calm in the face of the epidemic. Stone Pseudonym 49 Doctor 3/9/2020' data-like='<%= likeDC1%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
