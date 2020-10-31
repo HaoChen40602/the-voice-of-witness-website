@@ -352,7 +352,7 @@ The interviewee is a dentist at a public hospital in Beijing, China. He tells wh
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/16">Learn More</a>
             </div>
-            <div class="card" data-title='The Distance - If I’m No Longer Here Anymore Ziwei Zhang College Freshman Mei Ting 3/8/2020 Ziwei Zhang is a Freshman from Wuhan University of Technology. In his everyday life, he’s an optimistic boy who’s always longing for outdoor activities, in the meantime with a definite goal for his life. The following articles are all from his personal perspective, taking us on a tour, filling us in with the real experience of being a Wuhaner during the pandemic.' data-like='<%= likeDC17%>'>
+            <div class="card" data-title='The Distance - If I’m No Longer Here Anymore Ziyi Zhang College Freshman Mei Ting 3/8/2020 Ziyi Zhang is a Freshman from Wuhan University of Technology. In his everyday life, he’s an optimistic boy who’s always longing for outdoor activities, in the meantime with a definite goal for his life. The following articles are all from his personal perspective, taking us on a tour, filling us in with the real experience of being a Wuhaner during the pandemic.' data-like='<%= likeDC17%>'>
                 <div class="card-img"></div>
                 <div class="cardTitle">
                     <h3><a href="/document/17" style="color: black">The Distance - If I’m No Longer Here Anymore</a></h3>
@@ -366,7 +366,7 @@ The interviewee is a dentist at a public hospital in Beijing, China. He tells wh
                     <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC17%></nobr>
                 </div>
                 <p class="cardContent">
-                    Ziwei Zhang is a Freshman from Wuhan University of Technology. In his everyday life, he’s an optimistic boy who’s always longing for outdoor activities, in the meantime with a definite goal for his life. The following articles are all from his personal perspective, taking us on a tour, filling us in with the real experience of being a Wuhaner during the pandemic.
+                    Ziyi Zhang is a Freshman from Wuhan University of Technology. In his everyday life, he’s an optimistic boy who’s always longing for outdoor activities, in the meantime with a definite goal for his life. The following articles are all from his personal perspective, taking us on a tour, filling us in with the real experience of being a Wuhaner during the pandemic.
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/17">Learn More</a>
             </div>
