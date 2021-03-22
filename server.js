@@ -115,7 +115,8 @@ app.get("/browsestory", async function(req, res){
             likeDC28: result[27].val,
             likeDC29: result[28].val,
             likeDC30: result[29].val,
-            likeDC31: result[20].val
+            likeDC31: result[30].val,
+            likeDC32: result[31].val
         });
     });
 });

@@ -625,6 +625,25 @@ The interviewee is a dentist at a public hospital in Beijing, China. He tells wh
                 </p>
                 <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/31">Learn More</a>
             </div>
+            
+            <div class="card" data-title='I have been engaged in the catering industry for 20 years. I have been fond of cooking since I was a child, because of my love. When I was very young, my father was a passenger carrier and my mother had a management position in a coal mine factory. So I was alone at home for a long time. My neighbor, the income is very good, can eat meat every day, and then there is a restaurant next to my home, every day is also a lot of customers. In such an environment, the air is full of the fragrance of food every day, but there is no one in my home, so I began to learn to cook by myself since my childhood, in order to make myself eat whatever I want in the future, I will have a restaurant of my own.' data-like='<%= likeDC32%>'>
+                <div class="card-img"></div>
+                <div class="cardTitle">
+                    <h3><a href="/document/32" style="color: black">A restaurateur's perspective on COVID19</a></h3>
+                    <h6 style="font-size: 0.9em; color: rgb(193, 193, 193);"> 3/15/2020</h6>
+                </div>
+                <h5 class="cardSubject">
+                    Occupation: Restaurant Owner
+                </h5>
+                <div class="cardDynamic">
+                    <i onclick="myFunction(this)" class="fas fa-heart" style="color: pink" data-num="1"></i>
+                    <nobr style="color: pink; font-size: 0.5em; margin-left: -7px;"><%= likeDC32%></nobr>
+                </div>
+                <p class="cardContent">
+                    I have been engaged in the catering industry for 20 years. I have been fond of cooking since I was a child, because of my love. When I was very young, my father was a passenger carrier and my mother had a management position in a coal mine factory. So I was alone at home for a long time. My neighbor, the income is very good, can eat meat every day, and then there is a restaurant next to my home, every day is also a lot of customers. In such an environment, the air is full of the fragrance of food every day, but there is no one in my home, so I began to learn to cook by myself since my childhood, in order to make myself eat whatever I want in the future, I will have a restaurant of my own.
+                </p>
+                <a role="button" class="cardButton btn btn-primary" style="margin-top: 1em; background-color: rgb(88, 193, 186); border-color: rgb(88, 193, 186); color: white;" href="/document/32">Learn More</a>
+            </div>
         </div>
         
         <script src="javascript/browsestoryjavascript.js" type="text/javascript"></script>
